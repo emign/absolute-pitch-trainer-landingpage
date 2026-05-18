@@ -1,7 +1,6 @@
-import Image from "next/image";
 import { PRIVACY_URL, type Locale } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
-import appIcon from "../../../../public/app-icon.png";
+import PaletteIcon from "./PaletteIcon";
 
 type Props = {
   locale: Locale;
@@ -15,13 +14,7 @@ export default function Footer({ dict }: Props) {
         <div>
           <div className="flex items-center gap-3">
             <span className="relative h-10 w-10 rounded-xl overflow-hidden ring-1 ring-white/10 shadow-lg shadow-black/40">
-              <Image
-                src={appIcon}
-                alt=""
-                fill
-                sizes="40px"
-                className="object-cover"
-              />
+              <PaletteIcon sizes="40px" className="object-cover" />
             </span>
             <div className="leading-tight">
               <div className="text-[10px] uppercase tracking-[0.2em] text-[var(--color-text-muted)]">

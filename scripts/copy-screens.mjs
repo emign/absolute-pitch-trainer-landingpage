@@ -12,14 +12,26 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..", "..");
 const SRC = path.join(ROOT, "marketing-screenshots", "exports");
 const DEST = path.join(__dirname, "..", "public", "screens");
-// The canonical primary App Store icon — same neon-red tuning-fork art
-// that ships as AppIcon.appiconset/AppIcon.png inside the iOS bundle.
+// The default static favicon + apple-touch-icon. Same neon-red
+// tuning-fork art that ships as AppIcon.appiconset/AppIcon.png in
+// the iOS bundle. The palette switcher swaps this at runtime to the
+// matching /public/app-icons/<palette>.png on selection.
 const ICON_SRC = path.join(ROOT, "app_icons", "icon_jukebox_glow.png");
 const ICON_DESTS = [
   path.join(__dirname, "..", "public", "app-icon.png"),
   path.join(__dirname, "..", "src", "app", "icon.png"),
   path.join(__dirname, "..", "src", "app", "apple-icon.png"),
 ];
+
+// One PNG per palette → /public/app-icons/<palette>.png. Source files
+// come from /app_icons/ at the repo root.
+const PALETTE_ICONS = [
+  { from: "icon_jukebox_glow.png", to: "jukebox-chrome.png" },
+  { from: "icon_tube_glow.png",    to: "tube-glow.png" },
+  { from: "icon_reel_to_reel.png", to: "reel-to-reel.png" },
+  { from: "icon_rainbow_pride.png", to: "rainbow-pride.png" },
+];
+const PALETTE_ICONS_DEST = path.join(__dirname, "..", "public", "app-icons");
 
 const SIZE = "1125x2436";
 const SCREENS = ["01-hero", "02-onfire", "03-progress", "04-rank"];
@@ -45,6 +57,17 @@ async function main() {
     }
     console.log(`[copy-screens] icon → public/app-icon.png + src/app/{icon,apple-icon}.png`);
   }
+
+  await mkdir(PALETTE_ICONS_DEST, { recursive: true });
+  for (const pi of PALETTE_ICONS) {
+    const from = path.join(ROOT, "app_icons", pi.from);
+    if (!existsSync(from)) {
+      console.warn(`[copy-screens] palette icon missing: ${from}`);
+      continue;
+    }
+    await copyFile(from, path.join(PALETTE_ICONS_DEST, pi.to));
+  }
+  console.log(`[copy-screens] palette icons → public/app-icons/{${PALETTE_ICONS.map((p) => p.to).join(", ")}}`);
 
   for (const loc of LOCALES) {
     const localeDest = path.join(DEST, loc.id);

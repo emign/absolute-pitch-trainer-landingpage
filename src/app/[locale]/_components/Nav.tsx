@@ -1,14 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
 import PaletteSwitcher from "./PaletteSwitcher";
+import PaletteIcon from "./PaletteIcon";
 import { AppleIcon } from "./Icons";
 import type { Locale } from "../_dictionaries/config";
 import { APP_STORE_URL } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
-// Static import — Turbopack content-hashes the emitted URL so the browser
-// cache evicts automatically whenever the PNG changes.
-import appIcon from "../../../../public/app-icon.png";
 
 type Props = {
   locale: Locale;
@@ -25,14 +22,7 @@ export default function Nav({ locale, dict }: Props) {
           aria-label="Pitch Trainer"
         >
           <span className="relative h-9 w-9 rounded-xl overflow-hidden ring-1 ring-white/10 shadow-lg shadow-black/40">
-            <Image
-              src={appIcon}
-              alt=""
-              fill
-              sizes="36px"
-              priority
-              className="object-cover"
-            />
+            <PaletteIcon sizes="36px" priority className="object-cover" />
           </span>
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="text-[11px] uppercase tracking-[0.18em] text-[var(--color-text-muted)]">

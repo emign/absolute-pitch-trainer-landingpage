@@ -30,9 +30,11 @@ export const metadata: Metadata = {
 };
 
 // Runs synchronously before paint so the chosen palette is in place
-// for the first frame — no flash of default theme. Kept inline +
-// minified by hand so it's a single tag, no bundler indirection.
-const paletteInit = `(function(){try{var k='pitch-palette';var v=localStorage.getItem(k);var allow=['jukebox-chrome','tube-glow','reel-to-reel','rainbow-pride'];if(v&&allow.indexOf(v)>=0){document.documentElement.dataset.palette=v;}}catch(e){}})();`;
+// for the first frame — no flash of default theme. Also swaps the
+// favicon <link> so returning visitors who saved e.g. tube-glow see
+// the matching app-icon in the browser tab right away. Kept inline
+// + minified by hand so it's a single tag, no bundler indirection.
+const paletteInit = `(function(){try{var k='pitch-palette';var v=localStorage.getItem(k);var allow=['jukebox-chrome','tube-glow','reel-to-reel','rainbow-pride'];if(v&&allow.indexOf(v)>=0){document.documentElement.dataset.palette=v;requestAnimationFrame(function(){var u='/app-icons/'+v+'.png?v='+v;var l=document.querySelector('link[rel=\\\"icon\\\"]');if(l)l.href=u;var a=document.querySelector('link[rel=\\\"apple-touch-icon\\\"]');if(a)a.href=u;});}}catch(e){}})();`;
 
 export default function RootLayout({
   children,

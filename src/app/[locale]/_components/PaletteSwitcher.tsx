@@ -9,6 +9,7 @@ import {
   isPaletteId,
   type PaletteId,
 } from "./palettes";
+import { PALETTE_CHANGE_EVENT } from "./usePalette";
 
 type Props = {
   label: string;
@@ -72,6 +73,14 @@ export default function PaletteSwitcher({ label }: Props) {
       // Storage unavailable (private mode, blocked) — palette still
       // applies for the current session via the dataset attribute.
     }
+    // Notify other client components (nav + footer logos, etc.).
+    window.dispatchEvent(new CustomEvent(PALETTE_CHANGE_EVENT, { detail: next }));
+    // Swap the tab favicon to the matching app-icon. We bust the
+    // browser favicon cache by appending a per-palette query string.
+    const link = document.querySelector<HTMLLinkElement>('link[rel="icon"]');
+    if (link) link.href = `/app-icons/${next}.png?v=${next}`;
+    const apple = document.querySelector<HTMLLinkElement>('link[rel="apple-touch-icon"]');
+    if (apple) apple.href = `/app-icons/${next}.png?v=${next}`;
     setOpen(false);
   }
 
