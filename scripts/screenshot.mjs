@@ -27,8 +27,15 @@ const puppeteer = mod.default ?? mod;
 const OUT = path.resolve(__dirname, "..", "preview");
 await mkdir(OUT, { recursive: true });
 
-const locales = process.argv.slice(2);
-const targets = locales.length ? locales : ["en"];
+// Args: each entry is either "locale" or "locale:palette".
+// Examples:
+//   node scripts/screenshot.mjs en
+//   node scripts/screenshot.mjs en:tube-glow en:rainbow-pride
+const rawArgs = process.argv.slice(2);
+const targets = (rawArgs.length ? rawArgs : ["en"]).map((entry) => {
+  const [locale, palette] = entry.split(":");
+  return { locale, palette: palette || null };
+});
 
 const browser = await puppeteer.launch({
   headless: true,
@@ -36,11 +43,21 @@ const browser = await puppeteer.launch({
 });
 
 try {
-  for (const locale of targets) {
+  for (const { locale, palette } of targets) {
     const page = await browser.newPage();
     await page.setViewport({ width: 1440, height: 900, deviceScaleFactor: 2 });
+    if (palette) {
+      // Seed localStorage before any document loads from this origin so
+      // the pre-hydration palette init script picks it up on first paint.
+      await page.evaluateOnNewDocument((p) => {
+        try {
+          localStorage.setItem("pitch-palette", p);
+        } catch {}
+      }, palette);
+    }
     const url = `http://localhost:3000/${locale}`;
-    process.stdout.write(`→ ${url}  `);
+    const tag = palette ? `${locale} [${palette}]` : locale;
+    process.stdout.write(`→ ${tag.padEnd(28)}  `);
     await page.goto(url, { waitUntil: "networkidle0", timeout: 30000 });
     // Scroll through the whole document so Next/Image lazy-loaded
     // images below the fold actually fire their network requests.
@@ -59,7 +76,8 @@ try {
       .catch(() => {});
     // Give the drift animation a moment to settle on a frame
     await new Promise((r) => setTimeout(r, 400));
-    const out = path.join(OUT, `${locale}.png`);
+    const filename = palette ? `${locale}-${palette}.png` : `${locale}.png`;
+    const out = path.join(OUT, filename);
     await page.screenshot({ path: out, fullPage: true });
     console.log(`✓ ${out}`);
     await page.close();

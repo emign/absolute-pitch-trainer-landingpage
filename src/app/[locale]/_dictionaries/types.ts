@@ -57,5 +57,6 @@ export type Dictionary = {
     copyright: string;
     appBy: string;
     languageLabel: string;
+    themeLabel: string;
   };
 };

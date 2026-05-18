@@ -93,6 +93,7 @@ const ja: Dictionary = {
     copyright: "© 2026 Nicolai Emig. Apple Inc.とは関係ありません。",
     appBy: "Nicolai Emigによるアプリ",
     languageLabel: "言語",
+    themeLabel: "テーマ",
   },
 };
 

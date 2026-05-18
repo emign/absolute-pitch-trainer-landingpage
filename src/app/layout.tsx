@@ -29,6 +29,11 @@ export const metadata: Metadata = {
   // src/app/apple-icon.png via the Next.js file convention.
 };
 
+// Runs synchronously before paint so the chosen palette is in place
+// for the first frame — no flash of default theme. Kept inline +
+// minified by hand so it's a single tag, no bundler indirection.
+const paletteInit = `(function(){try{var k='pitch-palette';var v=localStorage.getItem(k);var allow=['jukebox-chrome','tube-glow','reel-to-reel','rainbow-pride'];if(v&&allow.indexOf(v)>=0){document.documentElement.dataset.palette=v;}}catch(e){}})();`;
+
 export default function RootLayout({
   children,
 }: {
@@ -36,6 +41,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: paletteInit }} />
+      </head>
       <body className={`${font.className} grain`}>{children}</body>
     </html>
   );

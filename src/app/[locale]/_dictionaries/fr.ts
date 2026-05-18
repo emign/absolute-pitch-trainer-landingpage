@@ -93,6 +93,7 @@ const fr: Dictionary = {
     copyright: "© 2026 Nicolai Emig. Non affilié à Apple Inc.",
     appBy: "Une app de Nicolai Emig",
     languageLabel: "Langue",
+    themeLabel: "Thème",
   },
 };
 

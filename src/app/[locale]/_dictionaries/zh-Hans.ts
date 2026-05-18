@@ -93,6 +93,7 @@ const zhHans: Dictionary = {
     copyright: "© 2026 Nicolai Emig。与 Apple Inc. 无关联。",
     appBy: "Nicolai Emig 出品",
     languageLabel: "语言",
+    themeLabel: "主题",
   },
 };
 

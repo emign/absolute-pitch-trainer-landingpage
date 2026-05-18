@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import LanguageSwitcher from "./LanguageSwitcher";
+import PaletteSwitcher from "./PaletteSwitcher";
 import { AppleIcon } from "./Icons";
 import type { Locale } from "../_dictionaries/config";
 import { APP_STORE_URL } from "../_dictionaries/config";
@@ -44,6 +45,7 @@ export default function Nav({ locale, dict }: Props) {
         </Link>
 
         <div className="flex items-center gap-2 sm:gap-3">
+          <PaletteSwitcher label={dict.footer.themeLabel} />
           <LanguageSwitcher current={locale} label={dict.footer.languageLabel} />
           <a
             href={APP_STORE_URL}

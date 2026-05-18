@@ -1,18 +1,65 @@
 @import "tailwindcss";
 
-@theme {
-  /* Jukebox Chrome — sourced from /color_palettes/jukebox-chrome.json */
+/*
+ * ----------------------------------------------------------------
+ * Palette tokens — sourced from /color_palettes/*.json
+ * ----------------------------------------------------------------
+ * Set on the <html> root via `data-palette="<id>"`.
+ *   :root is the default (= Jukebox Chrome) so SSR and the no-JS
+ *   case both render the brand palette.
+ * Tube-glow / reel-to-reel secondaries are warmed/brightened above
+ * the raw palette values to keep enough contrast as a chip accent.
+ */
+:root,
+[data-palette="jukebox-chrome"] {
   --color-bg: #12100f;
   --color-bg-lift: #1a1817;
   --color-surface: #222120;
-  --color-surface-hi: #2b2a29;
   --color-rule: #2f2c2a;
   --color-primary: #d42b2b;
   --color-primary-bright: #ff4646;
   --color-secondary: #f5d800;
   --color-text: #e8e6e0;
   --color-text-muted: #8a8880;
+}
 
+[data-palette="tube-glow"] {
+  --color-bg: #1c1208;
+  --color-bg-lift: #241809;
+  --color-surface: #2e1e0a;
+  --color-rule: #3d2d14;
+  --color-primary: #e8860a;
+  --color-primary-bright: #ffa42e;
+  --color-secondary: #f5c875;
+  --color-text: #f5e6c8;
+  --color-text-muted: #c9b48a;
+}
+
+[data-palette="reel-to-reel"] {
+  --color-bg: #141810;
+  --color-bg-lift: #19211a;
+  --color-surface: #1e2518;
+  --color-rule: #2a3022;
+  --color-primary: #d4620a;
+  --color-primary-bright: #ff8a33;
+  --color-secondary: #c5d854;
+  --color-text: #e8dcbc;
+  --color-text-muted: #8a8068;
+}
+
+[data-palette="rainbow-pride"] {
+  --color-bg: #0f0a1f;
+  --color-bg-lift: #160f2a;
+  --color-surface: #1f1635;
+  --color-rule: #2d2240;
+  --color-primary: #ff3d8b;
+  --color-primary-bright: #ff6fa8;
+  --color-secondary: #3dd4ff;
+  --color-text: #f2eafa;
+  --color-text-muted: #a89fb8;
+}
+
+@theme {
   --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
 }
@@ -25,6 +72,7 @@ body {
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  transition: background-color 0.4s ease;
 }
 
 * {
@@ -48,12 +96,18 @@ body {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
 }
 
-/* Aurora gradient backdrop for the hero. */
+/* Aurora gradient backdrop for the hero — palette-aware via color-mix. */
 .aurora {
   background:
-    radial-gradient(60% 50% at 12% 0%, rgba(212, 43, 43, 0.28), transparent 60%),
-    radial-gradient(45% 55% at 90% 15%, rgba(245, 216, 0, 0.16), transparent 65%),
-    radial-gradient(80% 60% at 50% 110%, rgba(212, 43, 43, 0.18), transparent 70%);
+    radial-gradient(60% 50% at 12% 0%,
+      color-mix(in srgb, var(--color-primary) 28%, transparent),
+      transparent 60%),
+    radial-gradient(45% 55% at 90% 15%,
+      color-mix(in srgb, var(--color-secondary) 16%, transparent),
+      transparent 65%),
+    radial-gradient(80% 60% at 50% 110%,
+      color-mix(in srgb, var(--color-primary) 18%, transparent),
+      transparent 70%);
 }
 
 /* Phone frame — uses CSS gradients, no PNG bezel needed. */
@@ -65,7 +119,7 @@ body {
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.04) inset,
     0 60px 120px -40px rgba(0, 0, 0, 0.9),
-    0 30px 60px -30px rgba(212, 43, 43, 0.35);
+    0 30px 60px -30px color-mix(in srgb, var(--color-primary) 35%, transparent);
 }
 .phone-frame::before {
   content: "";
@@ -85,9 +139,9 @@ body {
 
 /* Animated micro-pulse on the primary CTA. */
 @keyframes pulse-ring {
-  0% { box-shadow: 0 0 0 0 rgba(212, 43, 43, 0.55); }
-  70% { box-shadow: 0 0 0 18px rgba(212, 43, 43, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(212, 43, 43, 0); }
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-primary) 55%, transparent); }
+  70% { box-shadow: 0 0 0 18px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
 }
 .pulse-ring { animation: pulse-ring 2.4s infinite; }
 
@@ -97,12 +151,6 @@ body {
   100% { transform: translateY(0px); }
 }
 .drift { animation: drift 6s ease-in-out infinite; }
-
-/* Marquee for the language chips. */
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
 
 /* Headlines with mirrored hard breaks (see MARKETING.md). */
 .headline {
@@ -121,4 +169,5 @@ html { scroll-behavior: smooth; }
   .pulse-ring {
     animation: none;
   }
+  html, body { transition: none; }
 }
