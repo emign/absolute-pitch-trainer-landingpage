@@ -25,10 +25,11 @@ export function isLocale(value: string): value is Locale {
   return (LOCALES as readonly string[]).includes(value);
 }
 
-// App Store URL — App Store Connect issues this after first approval.
-// Placeholder until the live product page is provisioned.
+// Apple's region-neutral URL form: the bare app ID redirects each
+// visitor to their own regional App Store. We avoid the /de/ form a
+// multi-locale page would otherwise force on every visitor.
 export const APP_STORE_URL =
-  "https://apps.apple.com/app/absolute-pitch-trainer/id0000000000";
+  "https://apps.apple.com/app/absolutepitchtrainer/id6762354184";
 
 export const PRIVACY_URL =
   "https://emign.github.io/absolute-pitch-trainer-legal/";
