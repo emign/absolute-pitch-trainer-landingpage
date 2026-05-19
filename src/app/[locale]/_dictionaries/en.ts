@@ -7,6 +7,7 @@ const en: Dictionary = {
   },
   hero: {
     eyebrow: "EAR · TRAINING · 2026",
+    seoHeadline: "Absolute Pitch Trainer — Perfect Pitch & Ear Training for iOS",
     headline: ["Hear the note.", "Name the note."],
     sub: "The ear-training app for adult musicians who never gave up on perfect pitch. Eight difficulty levels, a daily challenge, and a science-backed approach you can actually keep.",
     cta: "Download on the App Store",

@@ -7,6 +7,7 @@ const fr: Dictionary = {
   },
   hero: {
     eyebrow: "FORMATION · AUDITIVE · 2026",
+    seoHeadline: "Absolute Pitch Trainer — Oreille Absolue & Formation Auditive pour iOS",
     headline: ["Écoute la note.", "Nomme-la."],
     sub: "L'app de formation auditive pour les musiciens adultes qui n'ont jamais abandonné l'oreille absolue. Huit niveaux de difficulté, un défi quotidien et une approche scientifique que tu peux vraiment tenir.",
     cta: "Télécharger sur l'App Store",

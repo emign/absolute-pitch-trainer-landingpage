@@ -7,6 +7,7 @@ const es: Dictionary = {
   },
   hero: {
     eyebrow: "ENTRENAMIENTO · AUDITIVO · 2026",
+    seoHeadline: "Absolute Pitch Trainer — Oído Absoluto y Entrenamiento Auditivo para iOS",
     headline: ["Escucha la nota.", "Nómbrala."],
     sub: "La app de entrenamiento auditivo para músicos adultos que nunca renunciaron al oído absoluto. Ocho niveles de dificultad, un reto diario y un enfoque basado en la ciencia que sí puedes mantener.",
     cta: "Descargar en el App Store",

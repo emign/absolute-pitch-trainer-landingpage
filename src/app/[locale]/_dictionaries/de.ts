@@ -7,6 +7,7 @@ const de: Dictionary = {
   },
   hero: {
     eyebrow: "GEHÖR · BILDUNG · 2026",
+    seoHeadline: "Absolute Pitch Trainer — Absolutes Gehör & Gehörbildung für iOS",
     headline: ["Hör den Ton.", "Bestimme den Ton."],
     sub: "Die Gehörbildungs-App für erwachsene Musiker, die das absolute Gehör nie aufgegeben haben. Acht Schwierigkeitsstufen, eine tägliche Challenge und ein wissenschaftlich fundierter Ansatz, den du wirklich durchziehst.",
     cta: "Im App Store laden",

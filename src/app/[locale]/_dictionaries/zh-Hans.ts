@@ -7,6 +7,7 @@ const zhHans: Dictionary = {
   },
   hero: {
     eyebrow: "音感 · 训练 · 2026",
+    seoHeadline: "Absolute Pitch Trainer — iOS 绝对音感与听音训练应用",
     headline: ["听音，", "说出音名。"],
     sub: "为从未放弃绝对音感的成年音乐人打造的练耳应用。八个难度等级、每日挑战，以及一套你真正能坚持的、有科学依据的训练方法。",
     cta: "在 App Store 下载",

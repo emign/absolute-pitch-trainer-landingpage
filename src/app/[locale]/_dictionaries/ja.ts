@@ -7,6 +7,7 @@ const ja: Dictionary = {
   },
   hero: {
     eyebrow: "音感 · トレーニング · 2026",
+    seoHeadline: "Absolute Pitch Trainer — iOS向け絶対音感・音感トレーニングアプリ",
     headline: ["音を聴いて、", "音を当てる。"],
     sub: "絶対音感を諦めなかった大人のミュージシャンのための音感トレーニングアプリ。8段階のレベル、毎日のチャレンジ、そして本当に続けられる科学的なアプローチ。",
     cta: "App Storeで入手",

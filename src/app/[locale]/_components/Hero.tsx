@@ -19,12 +19,16 @@ export default function Hero({ locale, dict }: Props) {
 
       <div className="mx-auto max-w-6xl px-5 sm:px-8 pt-16 sm:pt-24 pb-20 sm:pb-32 grid lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
         <div className="text-left">
+          {/* Keyword-bearing H1 for SEO + screen readers. Visible hero
+              below stays as the brand-voice display headline (h2). */}
+          <h1 className="sr-only">{dict.hero.seoHeadline}</h1>
+
           <div className="inline-flex items-center gap-2 rounded-full border border-[var(--color-secondary)]/30 bg-[var(--color-secondary)]/5 px-3 py-1 text-[11px] font-bold tracking-[0.18em] text-[var(--color-secondary)]">
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-[var(--color-secondary)]" />
             {dict.hero.eyebrow}
           </div>
 
-          <h1 className="headline mt-6 text-[clamp(2.6rem,7vw,5.5rem)] text-[var(--color-text)]">
+          <h2 className="headline mt-6 text-[clamp(2.6rem,7vw,5.5rem)] text-[var(--color-text)]" aria-hidden>
             {dict.hero.headline.map((line, i) => (
               <span key={i} className="block">
                 {i === dict.hero.headline.length - 1 ? (
@@ -36,7 +40,7 @@ export default function Hero({ locale, dict }: Props) {
                 )}
               </span>
             ))}
-          </h1>
+          </h2>
 
           <p className="mt-6 max-w-xl text-base sm:text-lg text-[var(--color-text-muted)] leading-relaxed">
             {dict.hero.sub}

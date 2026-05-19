@@ -5,6 +5,7 @@ export type Dictionary = {
   };
   hero: {
     eyebrow: string;
+    seoHeadline: string;
     headline: string[];
     sub: string;
     cta: string;
