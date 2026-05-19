@@ -50,6 +50,14 @@ export type Dictionary = {
     body: string;
     button: string;
   };
+  faq: {
+    eyebrow: string;
+    title: string;
+    items: Array<{
+      q: string;
+      a: string;
+    }>;
+  };
   footer: {
     tagline: string;
     privacy: string;

@@ -25,6 +25,11 @@ export const metadata: Metadata = {
     description: "Hear the note. Name the note.",
     images: ["/app-icon.png"],
   },
+  // Safari on iOS reads this and shows the native install banner —
+  // zero-click path from web visit to App Store sheet.
+  other: {
+    "apple-itunes-app": "app-id=6762354184",
+  },
   // Favicon + apple-touch are picked up from src/app/icon.png and
   // src/app/apple-icon.png via the Next.js file convention.
 };

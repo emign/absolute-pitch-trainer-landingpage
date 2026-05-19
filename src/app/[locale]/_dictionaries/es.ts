@@ -86,6 +86,32 @@ const es: Dictionary = {
     body: "Gratis al empezar. Premium desbloquea los niveles superiores, estadísticas avanzadas e iconos exclusivos.",
     button: "Descargar en el App Store",
   },
+  faq: {
+    eyebrow: "Preguntas frecuentes",
+    title: "Respuestas honestas sobre entrenar el oído.",
+    items: [
+      {
+        q: "¿Los adultos pueden aprender oído absoluto de verdad?",
+        a: "En parte — y el matiz importa. El oído absoluto clásico completo — nombrar cualquier nota que escuches en frío — se desarrolla con más fiabilidad durante un período crítico de la infancia. Pero los oídos adultos siguen mejorando con práctica enfocada y repetida: identificación más rápida, menos errores cercanos y progreso real en la escala que entrenas. Construimos la app sobre la parte de la ciencia que funciona para cerebros adultos.",
+      },
+      {
+        q: "¿Cuál es la diferencia entre oído absoluto y oído perfecto?",
+        a: "Es lo mismo. \"Oído absoluto\" es el término académico, \"oído perfecto\" es como la gente lo busca. Ambos significan nombrar una nota sin referencia previa.",
+      },
+      {
+        q: "¿En qué se diferencia de las apps de oído relativo o intervalos?",
+        a: "La mayoría de apps de entrenamiento auditivo entrenan intervalos — la distancia entre dos notas — es decir, oído relativo. Esta app entrena oído absoluto desde la base: empieza con tres notas con código de color y avanza por 8 niveles hasta progresiones de acordes y melodías completas. Los intervalos llegan en los niveles altos, pero el cimiento es reconocer notas aisladas.",
+      },
+      {
+        q: "¿Cuánto tarda en notarse el progreso?",
+        a: "La mayoría ve su curva de precisión moverse en los primeros 7 días de práctica diaria. Por eso la pantalla de estadísticas muestra gráficos de 7, 30, 90 días y un año completo — el cambio es pequeño día a día y evidente semana a semana.",
+      },
+      {
+        q: "¿Es gratis?",
+        a: "Sí — el entrenamiento básico es gratis para siempre. Premium desbloquea los niveles de dificultad más altos (acordes, melodías), estadísticas avanzadas e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
+      },
+    ],
+  },
   footer: {
     tagline: "Escucha la nota. Nómbrala.",
     privacy: "Política de privacidad",

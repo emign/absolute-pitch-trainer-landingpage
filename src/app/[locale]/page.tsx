@@ -1,12 +1,13 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { isLocale, LOCALES, HTML_LANG } from "./_dictionaries/config";
+import { APP_STORE_URL, isLocale, LOCALES, HTML_LANG } from "./_dictionaries/config";
 import { getDictionary } from "./_dictionaries";
 import Nav from "./_components/Nav";
 import Hero from "./_components/Hero";
 import Features from "./_components/Features";
 import Showcase from "./_components/Showcase";
 import Science from "./_components/Science";
+import FAQ from "./_components/FAQ";
 import CTA from "./_components/CTA";
 import Footer from "./_components/Footer";
 
@@ -43,13 +44,52 @@ export default async function LocalePage({ params }: Props) {
   if (!isLocale(locale)) notFound();
   const dict = await getDictionary(locale);
 
+  const softwareApplicationLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Absolute Pitch Trainer",
+    description: dict.hero.sub,
+    applicationCategory: "MusicApplication",
+    operatingSystem: "iOS 17+",
+    inLanguage: HTML_LANG[locale],
+    url: APP_STORE_URL,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+  };
+
+  const faqLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    inLanguage: HTML_LANG[locale],
+    mainEntity: dict.faq.items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.a,
+      },
+    })),
+  };
+
   return (
     <main className="relative">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplicationLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+      />
       <Nav locale={locale} dict={dict} />
       <Hero locale={locale} dict={dict} />
       <Features dict={dict} />
       <Showcase locale={locale} dict={dict} />
       <Science dict={dict} />
+      <FAQ dict={dict} />
       <CTA dict={dict} />
       <Footer locale={locale} dict={dict} />
     </main>

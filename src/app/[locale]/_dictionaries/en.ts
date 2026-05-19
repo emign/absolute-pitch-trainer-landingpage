@@ -86,6 +86,32 @@ const en: Dictionary = {
     body: "Free to start. Premium unlocks the higher difficulty levels, advanced statistics, and exclusive app icons.",
     button: "Download on the App Store",
   },
+  faq: {
+    eyebrow: "Common questions",
+    title: "Honest answers about training pitch.",
+    items: [
+      {
+        q: "Can adults really learn perfect pitch?",
+        a: "Sort of, and the nuance matters. Full classical-style perfect pitch — naming any note you hear cold — develops most reliably during a childhood critical period. But adult ears keep getting better with focused, repeated practice: faster identification, fewer near-misses, and real progress on the scale you actually train. We built the app on the part of the science that works for grown-up brains.",
+      },
+      {
+        q: "What's the difference between absolute pitch and perfect pitch?",
+        a: "They're the same thing. \"Absolute pitch\" is the academic term, \"perfect pitch\" is what most people search for. Both mean naming a note you hear without a reference tone.",
+      },
+      {
+        q: "How is this different from interval ear training apps?",
+        a: "Most ear-training apps train intervals — the distance between two notes — which is relative pitch. This app trains absolute pitch from the ground up: starting with three colour-coded notes and progressing through 8 levels to full chord progressions and melodies. Intervals come in at the higher levels, but the foundation is identifying notes in isolation.",
+      },
+      {
+        q: "How long does it take to see results?",
+        a: "Most people see their accuracy curve move within the first 7 days of daily practice. That's why the Stats screen shows 7, 30, 90 day, and 1 year accuracy graphs — the change is small day-to-day and obvious week-to-week.",
+      },
+      {
+        q: "Is the app free?",
+        a: "Yes — the core training is free forever. Premium unlocks the higher difficulty levels (chords, melodies), advanced statistics, and exclusive app icons. No accounts, no trackers, no ads.",
+      },
+    ],
+  },
   footer: {
     tagline: "Hear the note. Name the note.",
     privacy: "Privacy Policy",

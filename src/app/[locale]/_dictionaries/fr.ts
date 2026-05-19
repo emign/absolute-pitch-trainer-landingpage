@@ -86,6 +86,32 @@ const fr: Dictionary = {
     body: "Gratuit au départ. Premium débloque les niveaux supérieurs, les statistiques avancées et les icônes exclusives.",
     button: "Télécharger sur l'App Store",
   },
+  faq: {
+    eyebrow: "Questions fréquentes",
+    title: "Réponses honnêtes sur l'entraînement de l'oreille.",
+    items: [
+      {
+        q: "Les adultes peuvent-ils vraiment apprendre l'oreille absolue ?",
+        a: "En partie — et la nuance compte. L'oreille absolue classique complète — nommer n'importe quelle note à froid — se développe le plus fiablement pendant une fenêtre critique de l'enfance. Mais les oreilles adultes continuent de progresser avec une pratique répétée et concentrée : identification plus rapide, moins d'erreurs de proximité, et de vrais progrès sur l'échelle que tu entraînes vraiment. Nous avons bâti l'app sur la partie de la science qui fonctionne pour les cerveaux adultes.",
+      },
+      {
+        q: "Quelle est la différence entre oreille absolue et oreille parfaite ?",
+        a: "C'est la même chose. « Oreille absolue » est le terme académique, « oreille parfaite » est ce que la plupart des gens recherchent. Les deux signifient nommer une note sans référence.",
+      },
+      {
+        q: "En quoi est-ce différent d'une app d'oreille relative ou d'intervalles ?",
+        a: "La plupart des apps de formation auditive entraînent les intervalles — la distance entre deux notes — soit l'oreille relative. Cette app entraîne l'oreille absolue depuis la base : trois notes codées par couleur au départ, puis 8 niveaux jusqu'aux suites d'accords et mélodies. Les intervalles arrivent aux niveaux supérieurs, mais la fondation est l'identification de notes isolées.",
+      },
+      {
+        q: "Combien de temps pour voir des résultats ?",
+        a: "La plupart des gens voient leur courbe de précision bouger dans les 7 premiers jours de pratique quotidienne. C'est pour ça que l'écran Stats affiche des graphes sur 7, 30, 90 jours et un an complet — le changement est petit d'un jour à l'autre, évident d'une semaine à l'autre.",
+      },
+      {
+        q: "Est-ce gratuit ?",
+        a: "Oui — l'entraînement de base est gratuit pour toujours. Premium débloque les niveaux supérieurs (accords, mélodies), les statistiques avancées et les icônes exclusives. Pas de compte, pas de tracker, pas de pub.",
+      },
+    ],
+  },
   footer: {
     tagline: "Écoute la note. Nomme-la.",
     privacy: "Politique de confidentialité",

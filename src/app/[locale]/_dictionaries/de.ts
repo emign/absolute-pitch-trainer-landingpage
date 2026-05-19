@@ -86,6 +86,32 @@ const de: Dictionary = {
     body: "Kostenlos starten. Premium schaltet höhere Schwierigkeitsstufen, erweiterte Statistik und exklusive App-Icons frei.",
     button: "Im App Store laden",
   },
+  faq: {
+    eyebrow: "Häufige Fragen",
+    title: "Ehrliche Antworten zum Gehörtraining.",
+    items: [
+      {
+        q: "Können Erwachsene wirklich absolutes Gehör lernen?",
+        a: "Halb — und das halbe ist entscheidend. Vollständiges klassisches absolutes Gehör — jeden Ton kalt benennen — entwickelt sich am zuverlässigsten in einem kritischen Zeitfenster der Kindheit. Aber erwachsene Ohren werden mit fokussierter, wiederholter Übung weiter besser: schnellere Erkennung, weniger Fast-Treffer und echter Fortschritt auf der Skala, die du tatsächlich trainierst. Wir haben die App auf dem Teil der Wissenschaft gebaut, der für erwachsene Gehirne funktioniert.",
+      },
+      {
+        q: "Was ist der Unterschied zwischen absolutem und perfektem Gehör?",
+        a: "Dasselbe — \"absolutes Gehör\" ist der akademische Begriff, \"perfektes Gehör\" der umgangssprachliche. Beides bedeutet: einen Ton ohne Referenzton benennen können.",
+      },
+      {
+        q: "Wodurch unterscheidet sich die App von Apps für relatives Gehör oder Intervalltraining?",
+        a: "Die meisten Gehörbildungs-Apps trainieren Intervalle — den Abstand zwischen zwei Tönen — also relatives Gehör. Diese App trainiert absolutes Gehör von Grund auf: drei farbig markierte Töne zu Beginn, dann acht Stufen bis zu vollen Akkordfolgen und Melodien. Intervalle kommen auf höheren Stufen dazu, aber die Basis ist das Erkennen einzelner Töne.",
+      },
+      {
+        q: "Wie schnell sieht man Fortschritte?",
+        a: "Die meisten sehen ihre Genauigkeitskurve in den ersten 7 Tagen täglicher Übung steigen. Deshalb zeigt der Statistik-Bildschirm Verläufe über 7, 30, 90 Tage und ein ganzes Jahr — der Fortschritt ist von Tag zu Tag klein und von Woche zu Woche offensichtlich.",
+      },
+      {
+        q: "Ist die App kostenlos?",
+        a: "Ja — das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
+      },
+    ],
+  },
   footer: {
     tagline: "Hör den Ton. Bestimme den Ton.",
     privacy: "Datenschutz",
