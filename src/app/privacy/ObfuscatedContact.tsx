@@ -3,17 +3,17 @@
 import { useEffect, useState } from "react";
 
 /// Email + phone obfuscation. Bots that don't run JS see
-/// "nicolai (at) emig (dot) me" and a written-out phone number;
-/// real browsers get clickable mailto: + tel: links once mounted.
-/// Mirrors the pattern from the legacy legal/index.html so the level
-/// of bot-protection stays equivalent.
+/// "info (at) absolutepitchtrainer (dot) app" and a written-out
+/// phone number; real browsers get clickable mailto: + tel: links
+/// once mounted. Mirrors the pattern from the legacy legal/index.html
+/// so the level of bot-protection stays equivalent.
 
 export function ObfuscatedEmail() {
   const [revealed, setRevealed] = useState<string | null>(null);
   useEffect(() => {
-    setRevealed("nicolai" + "@" + "emig.me");
+    setRevealed("info" + "@" + "absolutepitchtrainer.app");
   }, []);
-  if (revealed === null) return <span>nicolai (at) emig (dot) me</span>;
+  if (revealed === null) return <span>info (at) absolutepitchtrainer (dot) app</span>;
   return (
     <a
       href={`mailto:${revealed}`}
