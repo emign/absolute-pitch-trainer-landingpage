@@ -31,5 +31,9 @@ export function isLocale(value: string): value is Locale {
 export const APP_STORE_URL =
   "https://apps.apple.com/app/absolutepitchtrainer/id6762354184";
 
-export const PRIVACY_URL =
-  "https://emign.github.io/absolute-pitch-trainer-legal/";
+// The privacy policy + Impressum now live on the landing page itself
+// (see `src/app/privacy/page.tsx`). The legacy GitHub-Pages URL at
+// `emign.github.io/absolute-pitch-trainer-legal/` is no longer
+// referenced — keep the page alive there for old App Store reviewers
+// who cached the previous URL, but new references go to /privacy.
+export const PRIVACY_URL = "https://absolutepitchtrainer.app/privacy";
