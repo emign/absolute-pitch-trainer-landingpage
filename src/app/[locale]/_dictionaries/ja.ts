@@ -113,6 +113,11 @@ const ja: Dictionary = {
       },
     ],
   },
+  consent: {
+    body: "サイト改善のため、Vercelの匿名アクセス解析を利用しています。Cookieやサイト横断のトラッキングはありません。詳しくは",
+    accept: "許可する",
+    decline: "拒否する",
+  },
   footer: {
     tagline: "音を聴いて、音を当てる。",
     privacy: "プライバシーポリシー",

@@ -10,6 +10,7 @@ import Science from "./_components/Science";
 import FAQ from "./_components/FAQ";
 import CTA from "./_components/CTA";
 import Footer from "./_components/Footer";
+import ConsentAndAnalytics from "./_components/ConsentAndAnalytics";
 
 export async function generateStaticParams() {
   return LOCALES.map((locale) => ({ locale }));
@@ -92,6 +93,7 @@ export default async function LocalePage({ params }: Props) {
       <FAQ dict={dict} />
       <CTA dict={dict} />
       <Footer locale={locale} dict={dict} />
+      <ConsentAndAnalytics dict={dict} />
     </main>
   );
 }

@@ -113,6 +113,11 @@ const zhHans: Dictionary = {
       },
     ],
   },
+  consent: {
+    body: "我们使用 Vercel 的匿名访问统计来了解访客访问了哪些页面。无 Cookie，无跨站追踪。详见",
+    accept: "接受",
+    decline: "拒绝",
+  },
   footer: {
     tagline: "听音，说出音名。",
     privacy: "隐私政策",

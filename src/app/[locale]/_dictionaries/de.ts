@@ -113,6 +113,11 @@ const de: Dictionary = {
       },
     ],
   },
+  consent: {
+    body: "Wir nutzen anonyme Statistiken (Vercel), um zu sehen, welche Seiten besucht werden. Keine Cookies, kein seitenübergreifendes Tracking. Details in der",
+    accept: "Akzeptieren",
+    decline: "Ablehnen",
+  },
   footer: {
     tagline: "Hör den Ton. Bestimme den Ton.",
     privacy: "Datenschutz",

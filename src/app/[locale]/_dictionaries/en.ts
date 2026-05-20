@@ -113,6 +113,11 @@ const en: Dictionary = {
       },
     ],
   },
+  consent: {
+    body: "We use anonymous analytics (Vercel) to understand which pages people visit. No cookies, no cross-site tracking. Details in",
+    accept: "Accept",
+    decline: "Decline",
+  },
   footer: {
     tagline: "Hear the note. Name the note.",
     privacy: "Privacy Policy",

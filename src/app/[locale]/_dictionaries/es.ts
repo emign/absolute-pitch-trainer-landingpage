@@ -113,6 +113,11 @@ const es: Dictionary = {
       },
     ],
   },
+  consent: {
+    body: "Usamos estadísticas anónimas (Vercel) para saber qué páginas se visitan. Sin cookies ni seguimiento entre sitios. Más info en la",
+    accept: "Aceptar",
+    decline: "Rechazar",
+  },
   footer: {
     tagline: "Escucha la nota. Nómbrala.",
     privacy: "Política de privacidad",

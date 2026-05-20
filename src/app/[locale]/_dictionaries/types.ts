@@ -59,6 +59,11 @@ export type Dictionary = {
       a: string;
     }>;
   };
+  consent: {
+    body: string;
+    accept: string;
+    decline: string;
+  };
   footer: {
     tagline: string;
     privacy: string;
