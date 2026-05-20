@@ -11,7 +11,7 @@ const font = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Absolute Pitch Trainer — Hear the note. Name the note.",
   description:
-    "The ear-training app for adult musicians who never gave up on perfect pitch. Eight difficulty levels, a daily challenge, and a science-backed approach you can actually keep.",
+    "The ear-training app for adult musicians who never gave up on perfect pitch. Nine difficulty levels, a daily challenge, and a science-backed approach you can actually keep.",
   metadataBase: new URL("https://absolutepitchtrainer.app"),
   openGraph: {
     title: "Absolute Pitch Trainer",

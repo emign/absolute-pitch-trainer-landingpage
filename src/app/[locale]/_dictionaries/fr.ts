@@ -9,7 +9,7 @@ const fr: Dictionary = {
     eyebrow: "FORMATION · AUDITIVE · 2026",
     seoHeadline: "Absolute Pitch Trainer — Oreille Absolue & Formation Auditive pour iOS",
     headline: ["Écoute la note.", "Nomme-la."],
-    sub: "L'app de formation auditive pour les musiciens adultes qui n'ont jamais abandonné l'oreille absolue. Huit niveaux de difficulté, un défi quotidien et une approche scientifique que tu peux vraiment tenir.",
+    sub: "L'app de formation auditive pour les musiciens adultes qui n'ont jamais abandonné l'oreille absolue. Neuf niveaux de difficulté, un défi quotidien et une approche scientifique que tu peux vraiment tenir.",
     cta: "Télécharger sur l'App Store",
     secondary: "Comment ça marche",
     badge: "iPhone · iOS 17+",
@@ -20,7 +20,7 @@ const fr: Dictionary = {
     list: [
       {
         icon: "levels",
-        title: "Huit niveaux de difficulté",
+        title: "Neuf niveaux de difficulté",
         body: "De trois notes colorées pour débutants absolus à des suites d'accords et mélodies complètes pour étudiants sérieux.",
       },
       {
@@ -101,7 +101,7 @@ const fr: Dictionary = {
       },
       {
         q: "En quoi est-ce différent d'une app d'oreille relative ou d'intervalles ?",
-        a: "La plupart des apps de formation auditive entraînent les intervalles — la distance entre deux notes — soit l'oreille relative. Cette app entraîne l'oreille absolue depuis la base : trois notes codées par couleur au départ, puis 8 niveaux jusqu'aux suites d'accords et mélodies. Les intervalles arrivent aux niveaux supérieurs, mais la fondation est l'identification de notes isolées.",
+        a: "La plupart des apps de formation auditive entraînent les intervalles — la distance entre deux notes — soit l'oreille relative. Cette app entraîne l'oreille absolue depuis la base : trois notes codées par couleur au départ, puis 9 niveaux jusqu'aux suites d'accords et mélodies. Les intervalles arrivent aux niveaux supérieurs, mais la fondation est l'identification de notes isolées.",
       },
       {
         q: "Combien de temps pour voir des résultats ?",

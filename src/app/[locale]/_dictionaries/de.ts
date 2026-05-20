@@ -9,7 +9,7 @@ const de: Dictionary = {
     eyebrow: "GEHÖR · BILDUNG · 2026",
     seoHeadline: "Absolute Pitch Trainer — Absolutes Gehör & Gehörbildung für iOS",
     headline: ["Hör den Ton.", "Bestimme den Ton."],
-    sub: "Die Gehörbildungs-App für erwachsene Musiker, die das absolute Gehör nie aufgegeben haben. Acht Schwierigkeitsstufen, eine tägliche Challenge und ein wissenschaftlich fundierter Ansatz, den du wirklich durchziehst.",
+    sub: "Die Gehörbildungs-App für erwachsene Musiker, die das absolute Gehör nie aufgegeben haben. Neun Schwierigkeitsstufen, eine tägliche Challenge und ein wissenschaftlich fundierter Ansatz, den du wirklich durchziehst.",
     cta: "Im App Store laden",
     secondary: "So funktioniert's",
     badge: "iPhone · iOS 17+",
@@ -20,7 +20,7 @@ const de: Dictionary = {
     list: [
       {
         icon: "levels",
-        title: "Acht Schwierigkeitsstufen",
+        title: "Neun Schwierigkeitsstufen",
         body: "Von drei farbig markierten Tönen für Anfänger bis zu vollen Akkordfolgen und Melodien für Fortgeschrittene.",
       },
       {
@@ -101,7 +101,7 @@ const de: Dictionary = {
       },
       {
         q: "Wodurch unterscheidet sich die App von Apps für relatives Gehör oder Intervalltraining?",
-        a: "Die meisten Gehörbildungs-Apps trainieren Intervalle — den Abstand zwischen zwei Tönen — also relatives Gehör. Diese App trainiert absolutes Gehör von Grund auf: drei farbig markierte Töne zu Beginn, dann acht Stufen bis zu vollen Akkordfolgen und Melodien. Intervalle kommen auf höheren Stufen dazu, aber die Basis ist das Erkennen einzelner Töne.",
+        a: "Die meisten Gehörbildungs-Apps trainieren Intervalle — den Abstand zwischen zwei Tönen — also relatives Gehör. Diese App trainiert absolutes Gehör von Grund auf: drei farbig markierte Töne zu Beginn, dann neun Stufen bis zu vollen Akkordfolgen und Melodien. Intervalle kommen auf höheren Stufen dazu, aber die Basis ist das Erkennen einzelner Töne.",
       },
       {
         q: "Wie schnell sieht man Fortschritte?",

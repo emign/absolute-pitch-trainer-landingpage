@@ -9,7 +9,7 @@ const es: Dictionary = {
     eyebrow: "ENTRENAMIENTO · AUDITIVO · 2026",
     seoHeadline: "Absolute Pitch Trainer — Oído Absoluto y Entrenamiento Auditivo para iOS",
     headline: ["Escucha la nota.", "Nómbrala."],
-    sub: "La app de entrenamiento auditivo para músicos adultos que nunca renunciaron al oído absoluto. Ocho niveles de dificultad, un reto diario y un enfoque basado en la ciencia que sí puedes mantener.",
+    sub: "La app de entrenamiento auditivo para músicos adultos que nunca renunciaron al oído absoluto. Nueve niveles de dificultad, un reto diario y un enfoque basado en la ciencia que sí puedes mantener.",
     cta: "Descargar en el App Store",
     secondary: "Cómo funciona",
     badge: "iPhone · iOS 17+",
@@ -20,7 +20,7 @@ const es: Dictionary = {
     list: [
       {
         icon: "levels",
-        title: "Ocho niveles de dificultad",
+        title: "Nueve niveles de dificultad",
         body: "Desde tres notas coloreadas para principiantes absolutos hasta progresiones de acordes y melodías para estudiantes serios.",
       },
       {
@@ -101,7 +101,7 @@ const es: Dictionary = {
       },
       {
         q: "¿En qué se diferencia de las apps de oído relativo o intervalos?",
-        a: "La mayoría de apps de entrenamiento auditivo entrenan intervalos — la distancia entre dos notas — es decir, oído relativo. Esta app entrena oído absoluto desde la base: empieza con tres notas con código de color y avanza por 8 niveles hasta progresiones de acordes y melodías completas. Los intervalos llegan en los niveles altos, pero el cimiento es reconocer notas aisladas.",
+        a: "La mayoría de apps de entrenamiento auditivo entrenan intervalos — la distancia entre dos notas — es decir, oído relativo. Esta app entrena oído absoluto desde la base: empieza con tres notas con código de color y avanza por 9 niveles hasta progresiones de acordes y melodías completas. Los intervalos llegan en los niveles altos, pero el cimiento es reconocer notas aisladas.",
       },
       {
         q: "¿Cuánto tarda en notarse el progreso?",

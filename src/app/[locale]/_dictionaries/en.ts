@@ -9,7 +9,7 @@ const en: Dictionary = {
     eyebrow: "EAR · TRAINING · 2026",
     seoHeadline: "Absolute Pitch Trainer — Perfect Pitch & Ear Training for iOS",
     headline: ["Hear the note.", "Name the note."],
-    sub: "The ear-training app for adult musicians who never gave up on perfect pitch. Eight difficulty levels, a daily challenge, and a science-backed approach you can actually keep.",
+    sub: "The ear-training app for adult musicians who never gave up on perfect pitch. Nine difficulty levels, a daily challenge, and a science-backed approach you can actually keep.",
     cta: "Download on the App Store",
     secondary: "How it works",
     badge: "iPhone · iOS 17+",
@@ -20,7 +20,7 @@ const en: Dictionary = {
     list: [
       {
         icon: "levels",
-        title: "Eight levels of difficulty",
+        title: "Nine levels of difficulty",
         body: "From three coloured notes for absolute beginners to full chord progressions and melodies for serious students.",
       },
       {
@@ -101,7 +101,7 @@ const en: Dictionary = {
       },
       {
         q: "How is this different from interval ear training apps?",
-        a: "Most ear-training apps train intervals — the distance between two notes — which is relative pitch. This app trains absolute pitch from the ground up: starting with three colour-coded notes and progressing through 8 levels to full chord progressions and melodies. Intervals come in at the higher levels, but the foundation is identifying notes in isolation.",
+        a: "Most ear-training apps train intervals — the distance between two notes — which is relative pitch. This app trains absolute pitch from the ground up: starting with three colour-coded notes and progressing through 9 levels to full chord progressions and melodies. Intervals come in at the higher levels, but the foundation is identifying notes in isolation.",
       },
       {
         q: "How long does it take to see results?",
