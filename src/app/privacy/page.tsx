@@ -224,7 +224,7 @@ export default function PrivacyPage() {
       </section>
 
       <footer className="mt-16 pt-6 border-t border-[var(--color-rule)] text-sm text-[var(--color-text-muted)]">
-        © 2026 Nicolai Emig. Pitch Trainer is not affiliated with Apple
+        © 2026 EmigLabs. Pitch Trainer is not affiliated with Apple
         Inc. App Store and iPhone are trademarks of Apple Inc.
       </footer>
     </main>
