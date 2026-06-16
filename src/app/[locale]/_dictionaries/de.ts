@@ -41,7 +41,7 @@ const de: Dictionary = {
       {
         icon: "chart",
         title: "Statistik, die du wirklich liest",
-        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Mastery-Ringe für jeden Tonklang.",
+        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Mastery-Ringe für jede Tonklasse.",
       },
       {
         icon: "trophy",
