@@ -120,6 +120,7 @@ const en: Dictionary = {
   },
   footer: {
     tagline: "Hear the note. Name the note.",
+    support: "Support",
     privacy: "Privacy Policy",
     legalNotice: "Impressum",
     copyright: "© 2026 EmigLabs. Not affiliated with Apple Inc.",

@@ -66,6 +66,7 @@ export type Dictionary = {
   };
   footer: {
     tagline: string;
+    support: string;
     privacy: string;
     legalNotice: string;
     copyright: string;

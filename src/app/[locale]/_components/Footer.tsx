@@ -1,4 +1,4 @@
-import { PRIVACY_URL, type Locale } from "../_dictionaries/config";
+import { PRIVACY_URL, SUPPORT_URL, type Locale } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
 import PaletteIcon from "./PaletteIcon";
 
@@ -32,6 +32,14 @@ export default function Footer({ dict }: Props) {
 
         <div className="sm:text-right text-xs text-[var(--color-text-muted)]">
           <nav className="flex flex-wrap gap-x-5 gap-y-2 sm:justify-end">
+            <a
+              href={SUPPORT_URL}
+              target="_blank"
+              rel="noopener"
+              className="hover:text-[var(--color-text)] transition"
+            >
+              {dict.footer.support}
+            </a>
             <a
               href={PRIVACY_URL}
               target="_blank"

@@ -120,6 +120,7 @@ const ja: Dictionary = {
   },
   footer: {
     tagline: "音を聴いて、音を当てる。",
+    support: "サポート",
     privacy: "プライバシーポリシー",
     legalNotice: "法的告知",
     copyright: "© 2026 EmigLabs. Apple Inc.とは関係ありません。",

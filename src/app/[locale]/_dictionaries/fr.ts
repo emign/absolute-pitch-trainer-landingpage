@@ -120,6 +120,7 @@ const fr: Dictionary = {
   },
   footer: {
     tagline: "Écoute la note. Nomme-la.",
+    support: "Assistance",
     privacy: "Politique de confidentialité",
     legalNotice: "Mentions légales",
     copyright: "© 2026 EmigLabs. Non affilié à Apple Inc.",

@@ -120,6 +120,7 @@ const zhHans: Dictionary = {
   },
   footer: {
     tagline: "听音，说出音名。",
+    support: "支持",
     privacy: "隐私政策",
     legalNotice: "法律声明",
     copyright: "© 2026 EmigLabs。与 Apple Inc. 无关联。",

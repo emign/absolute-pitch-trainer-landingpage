@@ -32,7 +32,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-[var(--color-text-muted)]">
-          Last updated: 20 May 2026
+          Last updated: 19 September 2026
         </p>
       </header>
 
@@ -89,6 +89,25 @@ export default function PrivacyPage() {
           >
             apple.com/legal/privacy
           </a>.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-semibold mt-10 mb-3">When you contact us</h2>
+        <p>
+          If you email us — including through the app&apos;s{" "}
+          <em>Settings → Feedback</em> links, which open a prefilled draft
+          in your own mail app — we receive your email address and
+          whatever you write. The draft also lists your app version, iOS
+          version, device model, app language and whether Premium is
+          active; you can see these lines before sending and may delete
+          them. Nothing is sent unless you press Send yourself.
+        </p>
+        <p className="mt-3">
+          We use this correspondence only to answer you and to fix or
+          improve the app (Art. 6(1)(f) GDPR — our legitimate interest in
+          handling your request), and delete it once it is no longer
+          needed for that purpose.
         </p>
       </section>
 

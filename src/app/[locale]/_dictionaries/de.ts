@@ -120,6 +120,7 @@ const de: Dictionary = {
   },
   footer: {
     tagline: "Hör den Ton. Bestimme den Ton.",
+    support: "Support",
     privacy: "Datenschutz",
     legalNotice: "Impressum",
     copyright: "© 2026 EmigLabs. Nicht mit Apple Inc. verbunden.",

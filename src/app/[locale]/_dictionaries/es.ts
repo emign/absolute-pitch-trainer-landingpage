@@ -120,6 +120,7 @@ const es: Dictionary = {
   },
   footer: {
     tagline: "Escucha la nota. Nómbrala.",
+    support: "Soporte",
     privacy: "Política de privacidad",
     legalNotice: "Aviso legal",
     copyright: "© 2026 EmigLabs. No afiliado a Apple Inc.",

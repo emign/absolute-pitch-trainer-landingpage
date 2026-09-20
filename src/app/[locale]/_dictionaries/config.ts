@@ -37,3 +37,7 @@ export const APP_STORE_URL =
 // referenced — keep the page alive there for old App Store reviewers
 // who cached the previous URL, but new references go to /privacy.
 export const PRIVACY_URL = "https://absolutepitchtrainer.app/privacy";
+
+// Support + feedback page (`src/app/support/page.tsx`). Also the App
+// Store listing's Support URL and the iOS app's no-mail-client fallback.
+export const SUPPORT_URL = "https://absolutepitchtrainer.app/support";
