@@ -25,8 +25,8 @@ const en: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Two game modes",
-        body: "Practice keeps the pressure off. Quiz puts your accuracy on the clock and on the scoreboard.",
+        title: "Three game modes",
+        body: "Practice keeps the pressure off. Quiz puts your accuracy on the clock and on the scoreboard. Weak Notes drills exactly the notes you keep missing.",
       },
       {
         icon: "flame",
@@ -41,7 +41,7 @@ const en: Dictionary = {
       {
         icon: "chart",
         title: "Stats you'll actually read",
-        body: "Accuracy curves across 7, 30, 90 days, and a full year. Per-note mastery rings for every pitch class.",
+        body: "Accuracy curves across 7, 30, 90 days, and a full year. Per-note mastery rings for every pitch class — and after each round, which notes you missed and what you heard instead.",
       },
       {
         icon: "trophy",
@@ -84,7 +84,7 @@ const en: Dictionary = {
   cta: {
     eyebrow: "Ready when you are",
     title: "Train the ear musicians spend years dreaming about.",
-    body: "Free to start. Premium unlocks the higher difficulty levels, advanced statistics, and exclusive app icons.",
+    body: "Free to start. Premium unlocks the higher difficulty levels, Weak Notes training, advanced statistics, and exclusive app icons.",
     button: "Download on the App Store",
   },
   faq: {
@@ -109,7 +109,7 @@ const en: Dictionary = {
       },
       {
         q: "Is the app free?",
-        a: "Yes — the core training is free forever. Premium unlocks the higher difficulty levels (chords, melodies), advanced statistics, and exclusive app icons. No accounts, no trackers, no ads.",
+        a: "Yes — the core training is free forever. Premium unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, and exclusive app icons. No accounts, no trackers, no ads.",
       },
     ],
   },

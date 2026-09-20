@@ -25,8 +25,8 @@ const fr: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Deux modes de jeu",
-        body: "Entraînement — calme, sans pression. Quiz — chronométré, noté, classé.",
+        title: "Trois modes de jeu",
+        body: "Entraînement — calme, sans pression. Quiz — chronométré, noté, classé. Notes Faibles — travaille précisément les notes que tu rates.",
       },
       {
         icon: "flame",
@@ -41,7 +41,7 @@ const fr: Dictionary = {
       {
         icon: "chart",
         title: "Stats que tu vas vraiment lire",
-        body: "Courbe de précision sur 7, 30, 90 jours et une année entière. Anneaux de maîtrise pour chaque classe de hauteur.",
+        body: "Courbe de précision sur 7, 30, 90 jours et une année entière. Anneaux de maîtrise pour chaque classe de hauteur — et après chaque manche, les notes manquées et ce que tu as entendu à la place.",
       },
       {
         icon: "trophy",
@@ -84,7 +84,7 @@ const fr: Dictionary = {
   cta: {
     eyebrow: "Prêt quand tu l'es",
     title: "Entraîne l'oreille dont les musiciens rêvent pendant des années.",
-    body: "Gratuit au départ. Premium débloque les niveaux supérieurs, les statistiques avancées et les icônes exclusives.",
+    body: "Gratuit au départ. Premium débloque les niveaux supérieurs, l'entraînement des Notes Faibles, les statistiques avancées et les icônes exclusives.",
     button: "Télécharger sur l'App Store",
   },
   faq: {
@@ -109,7 +109,7 @@ const fr: Dictionary = {
       },
       {
         q: "Est-ce gratuit ?",
-        a: "Oui — l'entraînement de base est gratuit pour toujours. Premium débloque les niveaux supérieurs (accords, mélodies), les statistiques avancées et les icônes exclusives. Pas de compte, pas de tracker, pas de pub.",
+        a: "Oui — l'entraînement de base est gratuit pour toujours. Premium débloque les niveaux supérieurs (accords, mélodies), l'entraînement des Notes Faibles, les statistiques avancées et les icônes exclusives. Pas de compte, pas de tracker, pas de pub.",
       },
     ],
   },

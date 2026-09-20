@@ -25,8 +25,8 @@ const es: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Dos modos de juego",
-        body: "Práctica — tranquila, sin presión. Quiz — cronometrado, puntuado, clasificado.",
+        title: "Tres modos de juego",
+        body: "Práctica — tranquila, sin presión. Quiz — cronometrado, puntuado, clasificado. Notas Débiles — entrena justo las notas que fallas.",
       },
       {
         icon: "flame",
@@ -41,7 +41,7 @@ const es: Dictionary = {
       {
         icon: "chart",
         title: "Estadísticas que sí leerás",
-        body: "Curva de precisión a 7, 30, 90 días y un año completo. Anillos de dominio para cada clase de altura.",
+        body: "Curva de precisión a 7, 30, 90 días y un año completo. Anillos de dominio para cada clase de altura — y tras cada ronda, qué notas fallaste y qué oíste en su lugar.",
       },
       {
         icon: "trophy",
@@ -84,7 +84,7 @@ const es: Dictionary = {
   cta: {
     eyebrow: "Listo cuando lo estés",
     title: "Entrena el oído con el que los músicos sueñan durante años.",
-    body: "Gratis al empezar. Premium desbloquea los niveles superiores, estadísticas avanzadas e iconos exclusivos.",
+    body: "Gratis al empezar. Premium desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos.",
     button: "Descargar en el App Store",
   },
   faq: {
@@ -109,7 +109,7 @@ const es: Dictionary = {
       },
       {
         q: "¿Es gratis?",
-        a: "Sí — el entrenamiento básico es gratis para siempre. Premium desbloquea los niveles de dificultad más altos (acordes, melodías), estadísticas avanzadas e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
+        a: "Sí — el entrenamiento básico es gratis para siempre. Premium desbloquea los niveles de dificultad más altos (acordes, melodías), el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
       },
     ],
   },

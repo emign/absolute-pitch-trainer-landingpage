@@ -25,8 +25,8 @@ const de: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Zwei Spielmodi",
-        body: "Übung — entspannt, ohne Druck. Quiz — gestoppt, gewertet, ranked.",
+        title: "Drei Spielmodi",
+        body: "Übung — entspannt, ohne Druck. Quiz — gestoppt, gewertet, ranked. Schwache Noten — trainiert gezielt die Töne, die du verfehlst.",
       },
       {
         icon: "flame",
@@ -41,7 +41,7 @@ const de: Dictionary = {
       {
         icon: "chart",
         title: "Statistik, die du wirklich liest",
-        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Mastery-Ringe für jede Tonklasse.",
+        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Mastery-Ringe für jede Tonklasse — und nach jeder Runde: welche Töne du verfehlt und was du stattdessen gehört hast.",
       },
       {
         icon: "trophy",
@@ -84,7 +84,7 @@ const de: Dictionary = {
   cta: {
     eyebrow: "Bereit, wann du bist",
     title: "Trainiere das Gehör, von dem Musiker jahrelang träumen.",
-    body: "Kostenlos starten. Premium schaltet höhere Schwierigkeitsstufen, erweiterte Statistik und exklusive App-Icons frei.",
+    body: "Kostenlos starten. Premium schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei.",
     button: "Im App Store laden",
   },
   faq: {
@@ -109,7 +109,7 @@ const de: Dictionary = {
       },
       {
         q: "Ist die App kostenlos?",
-        a: "Ja — das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
+        a: "Ja — das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
       },
     ],
   },
