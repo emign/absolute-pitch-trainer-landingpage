@@ -70,9 +70,10 @@ const de: Dictionary = {
     title: "Gestaltet wie ein Instrument.",
     list: [
       { label: "TRAINIERE DEIN GEHÖR", headline: "Hör den Ton. / Bestimme den Ton.", file: "01-hero" },
-      { label: "HEISSE SERIEN", headline: "Komm in / den Flow.", file: "02-onfire" },
-      { label: "DEIN FORTSCHRITT", headline: "Jeden Ton, / jeden Tag / ein Stück besser.", file: "03-progress" },
-      { label: "STEIG AUF", headline: "Nächstes Level. / Serien sichern.", file: "04-rank" },
+      { label: "SCHWACHE NOTEN TRAINIEREN", headline: "Finde deine schwachen Noten. / Trainiere sie.", file: "02-weaknotes" },
+      { label: "HEISSE SERIEN", headline: "Komm in / den Flow.", file: "03-onfire" },
+      { label: "DEIN FORTSCHRITT", headline: "Jeden Ton, / jeden Tag / ein Stück besser.", file: "04-progress" },
+      { label: "STEIG AUF", headline: "Nächstes Level. / Serien sichern.", file: "05-rank" },
     ],
   },
   science: {

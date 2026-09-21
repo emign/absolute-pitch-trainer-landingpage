@@ -70,9 +70,10 @@ const fr: Dictionary = {
     title: "Conçue comme un instrument.",
     list: [
       { label: "ENTRAÎNE TON OREILLE", headline: "Écoute la note. / Nomme-la.", file: "01-hero" },
-      { label: "SÉRIES EN FEU", headline: "Reste / dans la zone.", file: "02-onfire" },
-      { label: "TES PROGRÈS", headline: "Chaque note, / chaque jour, / plus juste.", file: "03-progress" },
-      { label: "GRIMPE DANS LES RANGS", headline: "Monte de niveau. / Garde tes séries.", file: "04-rank" },
+      { label: "NOTES FAIBLES", headline: "Repère tes notes faibles. / Travaille-les.", file: "02-weaknotes" },
+      { label: "SÉRIES EN FEU", headline: "Reste / dans la zone.", file: "03-onfire" },
+      { label: "TES PROGRÈS", headline: "Chaque note, / chaque jour, / plus juste.", file: "04-progress" },
+      { label: "GRIMPE DANS LES RANGS", headline: "Monte de niveau. / Garde tes séries.", file: "05-rank" },
     ],
   },
   science: {

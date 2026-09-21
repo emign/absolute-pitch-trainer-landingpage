@@ -36,7 +36,7 @@ export type Dictionary = {
     list: Array<{
       label: string;
       headline: string;
-      file: "01-hero" | "02-onfire" | "03-progress" | "04-rank";
+      file: "01-hero" | "02-weaknotes" | "03-onfire" | "04-progress" | "05-rank";
     }>;
   };
   science: {

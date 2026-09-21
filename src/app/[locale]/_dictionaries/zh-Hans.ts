@@ -70,9 +70,10 @@ const zhHans: Dictionary = {
     title: "像乐器一样的设计。",
     list: [
       { label: "训练你的耳朵", headline: "听音， / 说出音名。", file: "01-hero" },
-      { label: "连击火热", headline: "进入 / 心流。", file: "02-onfire" },
-      { label: "你的进步", headline: "每天 / 每个音 / 更敏锐。", file: "03-progress" },
-      { label: "段位攀升", headline: "升级。 / 守住连胜。", file: "04-rank" },
+      { label: "薄弱音训练", headline: "找出你的薄弱音， / 逐个攻克。", file: "02-weaknotes" },
+      { label: "连击火热", headline: "进入 / 心流。", file: "03-onfire" },
+      { label: "你的进步", headline: "每天 / 每个音 / 更敏锐。", file: "04-progress" },
+      { label: "段位攀升", headline: "升级。 / 守住连胜。", file: "05-rank" },
     ],
   },
   science: {

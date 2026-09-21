@@ -70,9 +70,10 @@ const es: Dictionary = {
     title: "Diseñada como un instrumento.",
     list: [
       { label: "ENTRENA TU OÍDO", headline: "Escucha la nota. / Nómbrala.", file: "01-hero" },
-      { label: "RACHAS QUE QUEMAN", headline: "Entra / en zona.", file: "02-onfire" },
-      { label: "TU PROGRESO", headline: "Cada nota, / cada día, / más afinada.", file: "03-progress" },
-      { label: "SUBE DE RANGO", headline: "Sube de nivel. / Mantén tus rachas.", file: "04-rank" },
+      { label: "NOTAS DÉBILES", headline: "Descubre tus notas débiles. / Entrénalas.", file: "02-weaknotes" },
+      { label: "RACHAS QUE QUEMAN", headline: "Entra / en zona.", file: "03-onfire" },
+      { label: "TU PROGRESO", headline: "Cada nota, / cada día, / más afinada.", file: "04-progress" },
+      { label: "SUBE DE RANGO", headline: "Sube de nivel. / Mantén tus rachas.", file: "05-rank" },
     ],
   },
   science: {

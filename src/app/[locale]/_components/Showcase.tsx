@@ -23,7 +23,7 @@ export default function Showcase({ locale, dict }: Props) {
           </div>
         </div>
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           {dict.screens.list.map((s, idx) => {
             const headlineParts = s.headline.split("/").map((p) => p.trim());
             return (
