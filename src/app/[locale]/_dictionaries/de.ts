@@ -3,13 +3,13 @@ import type { Dictionary } from "./types";
 const de: Dictionary = {
   nav: {
     appStore: "App Store",
-    download: "Laden",
+    download: "Download",
   },
   hero: {
-    eyebrow: "GEHÖR · BILDUNG · 2026",
-    seoHeadline: "Absolute Pitch Trainer — Absolutes Gehör & Gehörbildung für iOS",
+    eyebrow: "GEHÖRBILDUNG · 2026",
+    seoHeadline: "Absolute Pitch Trainer – Absolutes Gehör & Gehörbildung für iOS",
     headline: ["Hör den Ton.", "Bestimme den Ton."],
-    sub: "Die Gehörbildungs-App für erwachsene Musiker, die das absolute Gehör nie aufgegeben haben. Neun Schwierigkeitsstufen, eine tägliche Challenge und ein wissenschaftlich fundierter Ansatz, den du wirklich durchziehst.",
+    sub: "Die Gehörbildungs-App für erwachsene Musiker, die den Traum vom absoluten Gehör nie aufgegeben haben. Neun Schwierigkeitsstufen, eine tägliche Challenge und ein wissenschaftlich fundierter Ansatz, den du wirklich durchziehst.",
     cta: "Im App Store laden",
     secondary: "So funktioniert's",
     badge: "iPhone · iOS 17+",
@@ -26,32 +26,32 @@ const de: Dictionary = {
       {
         icon: "ear",
         title: "Drei Spielmodi",
-        body: "Übung — entspannt, ohne Druck. Quiz — gestoppt, gewertet, ranked. Schwache Noten — trainiert gezielt die Töne, die du verfehlst.",
+        body: "Übung – entspannt, ohne Druck. Quiz – auf Zeit, mit Punkten und Bestenliste. Schwache Noten – trainiert gezielt die Töne, die du verfehlst.",
       },
       {
         icon: "flame",
         title: "Heiße Serien",
-        body: "Genug richtige Antworten in Folge — und das Quiz entflammt. Tägliche Serie plus In-Quiz-Serie laufen parallel.",
+        body: "Genug richtige Antworten in Folge – und das Quiz entflammt. Tägliche Serie und Antwort-Serie im Quiz laufen parallel.",
       },
       {
         icon: "calendar",
         title: "Tägliche Challenge",
-        body: "Jeden Tag ein frischer Test — damit die Gewohnheit und der Kalender lebendig bleiben.",
+        body: "Jeden Tag ein frischer Test – damit die Gewohnheit und der Kalender lebendig bleiben.",
       },
       {
         icon: "chart",
         title: "Statistik, die du wirklich liest",
-        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Mastery-Ringe für jede Tonklasse — und nach jeder Runde: welche Töne du verfehlt und was du stattdessen gehört hast.",
+        body: "Genauigkeitsverlauf über 7, 30, 90 Tage und ein ganzes Jahr. Trefferquoten-Ringe für jeden der 12 Töne – und nach jeder Runde: welche Töne du verfehlt und was du stattdessen gehört hast.",
       },
       {
         icon: "trophy",
         title: "Game-Center-Bestenlisten",
-        body: "Vergleiche Karriere-XP und beste Quiz-Punktzahl weltweit. Erfolge von Common bis Legendary.",
+        body: "Vergleiche Karriere-XP und beste Quiz-Punktzahl weltweit. Erfolge von Gewöhnlich bis Legendär.",
       },
       {
         icon: "tuning",
         title: "Referenz-Stimmgabel",
-        body: "Antippen für eine saubere C-D-E-F-G-A-H-Referenzskala. Reine Tonhöhe, keine matschigen Wellenformen.",
+        body: "Antippen für eine saubere C-D-E-F-G-A-H-Referenzskala. Saubere Tonerzeugung, keine matschigen Wellenformen.",
       },
       {
         icon: "palette",
@@ -71,18 +71,18 @@ const de: Dictionary = {
     list: [
       { label: "TRAINIERE DEIN GEHÖR", headline: "Hör den Ton. / Bestimme den Ton.", file: "01-hero" },
       { label: "HEISSE SERIEN", headline: "Komm in / den Flow.", file: "02-onfire" },
-      { label: "DEIN FORTSCHRITT", headline: "Jeder Ton, / jeden Tag / werde besser.", file: "03-progress" },
-      { label: "STEIG AUF", headline: "Level auf. / Serien sichern.", file: "04-rank" },
+      { label: "DEIN FORTSCHRITT", headline: "Jeden Ton, / jeden Tag / ein Stück besser.", file: "03-progress" },
+      { label: "STEIG AUF", headline: "Nächstes Level. / Serien sichern.", file: "04-rank" },
     ],
   },
   science: {
     eyebrow: "Die Wissenschaft",
     title: "Auch erwachsene Ohren lernen weiter.",
-    body: "Die Volksweisheit sagt, absolutes Gehör sei „angeboren oder nie\". Das ist nur die halbe Wahrheit. Kinder können in einem kritischen Zeitfenster vollständiges absolutes Gehör entwickeln — besonders mit früher musikalischer Ausbildung. Aber auch erwachsene Ohren lernen weiter: fokussierte, wiederholte Übung schärft die Tonerkennung in jedem Alter. Wir haben die App auf dem Teil der Wissenschaft gebaut, der für erwachsene Gehirne funktioniert.",
-    pull: "Es ist nicht zu spät anzufangen.",
+    body: "Die Volksweisheit sagt, absolutes Gehör sei „angeboren oder nie“. Das ist nur die halbe Wahrheit. Kinder können in einem kritischen Zeitfenster vollständiges absolutes Gehör entwickeln – besonders mit früher musikalischer Ausbildung. Aber auch erwachsene Ohren lernen weiter: gezieltes, wiederholtes Üben schärft die Tonerkennung in jedem Alter. Wir haben die App auf dem Teil der Wissenschaft aufgebaut, der für erwachsene Gehirne funktioniert.",
+    pull: "Es ist nie zu spät anzufangen.",
   },
   cta: {
-    eyebrow: "Bereit, wann du bist",
+    eyebrow: "Bereit, wenn du es bist",
     title: "Trainiere das Gehör, von dem Musiker jahrelang träumen.",
     body: "Kostenlos starten. Premium schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei.",
     button: "Im App Store laden",
@@ -93,23 +93,23 @@ const de: Dictionary = {
     items: [
       {
         q: "Können Erwachsene wirklich absolutes Gehör lernen?",
-        a: "Halb — und das halbe ist entscheidend. Vollständiges klassisches absolutes Gehör — jeden Ton kalt benennen — entwickelt sich am zuverlässigsten in einem kritischen Zeitfenster der Kindheit. Aber erwachsene Ohren werden mit fokussierter, wiederholter Übung weiter besser: schnellere Erkennung, weniger Fast-Treffer und echter Fortschritt auf der Skala, die du tatsächlich trainierst. Wir haben die App auf dem Teil der Wissenschaft gebaut, der für erwachsene Gehirne funktioniert.",
+        a: "Jein – und auf die Feinheiten kommt es an. Vollständiges klassisches absolutes Gehör – jeden Ton aus dem Stand benennen – entwickelt sich am zuverlässigsten in einem kritischen Zeitfenster der Kindheit. Aber erwachsene Ohren werden mit gezieltem, wiederholtem Üben weiter besser: schnellere Erkennung, seltener knapp daneben und echter Fortschritt bei den Tönen, die du tatsächlich trainierst. Wir haben die App auf dem Teil der Wissenschaft aufgebaut, der für erwachsene Gehirne funktioniert.",
       },
       {
         q: "Was ist der Unterschied zwischen absolutem und perfektem Gehör?",
-        a: "Dasselbe — \"absolutes Gehör\" ist der akademische Begriff, \"perfektes Gehör\" der umgangssprachliche. Beides bedeutet: einen Ton ohne Referenzton benennen können.",
+        a: "Dasselbe – „absolutes Gehör“ ist der akademische Begriff, „perfektes Gehör“ der umgangssprachliche. Beides bedeutet: einen Ton ohne Referenzton benennen können.",
       },
       {
         q: "Wodurch unterscheidet sich die App von Apps für relatives Gehör oder Intervalltraining?",
-        a: "Die meisten Gehörbildungs-Apps trainieren Intervalle — den Abstand zwischen zwei Tönen — also relatives Gehör. Diese App trainiert absolutes Gehör von Grund auf: drei farbig markierte Töne zu Beginn, dann neun Stufen bis zu vollen Akkordfolgen und Melodien. Intervalle kommen auf höheren Stufen dazu, aber die Basis ist das Erkennen einzelner Töne.",
+        a: "Die meisten Gehörbildungs-Apps trainieren Intervalle – den Abstand zwischen zwei Tönen – also relatives Gehör. Diese App trainiert absolutes Gehör von Grund auf: drei farbig markierte Töne zu Beginn, dann neun Stufen bis zu vollen Akkordfolgen und Melodien. Intervalle kommen auf höheren Stufen dazu, aber die Basis ist das Erkennen einzelner Töne.",
       },
       {
         q: "Wie schnell sieht man Fortschritte?",
-        a: "Die meisten sehen ihre Genauigkeitskurve in den ersten 7 Tagen täglicher Übung steigen. Deshalb zeigt der Statistik-Bildschirm Verläufe über 7, 30, 90 Tage und ein ganzes Jahr — der Fortschritt ist von Tag zu Tag klein und von Woche zu Woche offensichtlich.",
+        a: "Die meisten sehen ihre Genauigkeitskurve in den ersten 7 Tagen täglicher Übung steigen. Deshalb zeigt der Statistik-Bildschirm Verläufe über 7, 30, 90 Tage und ein ganzes Jahr – der Fortschritt ist von Tag zu Tag klein und von Woche zu Woche offensichtlich.",
       },
       {
         q: "Ist die App kostenlos?",
-        a: "Ja — das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
+        a: "Ja – das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
       },
     ],
   },
@@ -121,7 +121,7 @@ const de: Dictionary = {
   footer: {
     tagline: "Hör den Ton. Bestimme den Ton.",
     support: "Support",
-    privacy: "Datenschutz",
+    privacy: "Datenschutzerklärung",
     legalNotice: "Impressum",
     copyright: "© 2026 EmigLabs. Nicht mit Apple Inc. verbunden.",
     appBy: "Eine App von EmigLabs",

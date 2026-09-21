@@ -26,7 +26,7 @@ const es: Dictionary = {
       {
         icon: "ear",
         title: "Tres modos de juego",
-        body: "Práctica — tranquila, sin presión. Quiz — cronometrado, puntuado, clasificado. Notas Débiles — entrena justo las notas que fallas.",
+        body: "Práctica — tranquila, sin presión. Quiz — contrarreloj, con puntuación y clasificación. Notas Débiles — entrena justo las notas que fallas.",
       },
       {
         icon: "flame",
@@ -36,7 +36,7 @@ const es: Dictionary = {
       {
         icon: "calendar",
         title: "Reto diario",
-        body: "Una prueba fresca cada día para mantener viva la rutina — y el calendario.",
+        body: "Una prueba nueva cada día para mantener vivo el hábito — y el calendario.",
       },
       {
         icon: "chart",
@@ -51,7 +51,7 @@ const es: Dictionary = {
       {
         icon: "tuning",
         title: "Diapasón de referencia",
-        body: "Toca para una escala C-D-E-F-G-A-B limpia. Síntesis de tono pura, sin formas de onda turbias.",
+        body: "Tócalo para oír una escala Do-Re-Mi-Fa-Sol-La-Si limpia. Síntesis de sonido pura, sin formas de onda turbias.",
       },
       {
         icon: "palette",
@@ -61,7 +61,7 @@ const es: Dictionary = {
       {
         icon: "shield",
         title: "Privada por diseño",
-        body: "Sin cuentas, sin trackers, sin telemetría. Tu historial de práctica se queda en tu iPhone.",
+        body: "Sin cuentas, sin rastreadores, sin telemetría. Tu historial de práctica se queda en tu iPhone.",
       },
     ],
   },
@@ -72,7 +72,7 @@ const es: Dictionary = {
       { label: "ENTRENA TU OÍDO", headline: "Escucha la nota. / Nómbrala.", file: "01-hero" },
       { label: "RACHAS QUE QUEMAN", headline: "Entra / en zona.", file: "02-onfire" },
       { label: "TU PROGRESO", headline: "Cada nota, / cada día, / más afinada.", file: "03-progress" },
-      { label: "SUBE DE RANGO", headline: "Sube de nivel. / Asegura rachas.", file: "04-rank" },
+      { label: "SUBE DE RANGO", headline: "Sube de nivel. / Mantén tus rachas.", file: "04-rank" },
     ],
   },
   science: {
@@ -82,9 +82,9 @@ const es: Dictionary = {
     pull: "No es demasiado tarde para empezar.",
   },
   cta: {
-    eyebrow: "Listo cuando lo estés",
+    eyebrow: "Lista cuando tú lo estés",
     title: "Entrena el oído con el que los músicos sueñan durante años.",
-    body: "Gratis al empezar. Premium desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos.",
+    body: "Empieza gratis. Premium desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos.",
     button: "Descargar en el App Store",
   },
   faq: {
@@ -92,8 +92,8 @@ const es: Dictionary = {
     title: "Respuestas honestas sobre entrenar el oído.",
     items: [
       {
-        q: "¿Los adultos pueden aprender oído absoluto de verdad?",
-        a: "En parte — y el matiz importa. El oído absoluto clásico completo — nombrar cualquier nota que escuches en frío — se desarrolla con más fiabilidad durante un período crítico de la infancia. Pero los oídos adultos siguen mejorando con práctica enfocada y repetida: identificación más rápida, menos errores cercanos y progreso real en la escala que entrenas. Construimos la app sobre la parte de la ciencia que funciona para cerebros adultos.",
+        q: "¿De verdad pueden los adultos desarrollar oído absoluto?",
+        a: "En parte — y el matiz importa. El oído absoluto clásico completo — nombrar cualquier nota que escuches en frío — se desarrolla con más fiabilidad durante un período crítico de la infancia. Pero los oídos adultos siguen mejorando con práctica enfocada y repetida: identificación más rápida, menos confusiones entre notas vecinas y progreso real en la escala que entrenas. Construimos la app sobre la parte de la ciencia que funciona para cerebros adultos.",
       },
       {
         q: "¿Cuál es la diferencia entre oído absoluto y oído perfecto?",

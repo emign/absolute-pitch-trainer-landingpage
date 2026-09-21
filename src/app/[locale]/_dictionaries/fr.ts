@@ -9,7 +9,7 @@ const fr: Dictionary = {
     eyebrow: "FORMATION · AUDITIVE · 2026",
     seoHeadline: "Absolute Pitch Trainer — Oreille Absolue & Formation Auditive pour iOS",
     headline: ["Écoute la note.", "Nomme-la."],
-    sub: "L'app de formation auditive pour les musiciens adultes qui n'ont jamais abandonné l'oreille absolue. Neuf niveaux de difficulté, un défi quotidien et une approche scientifique que tu peux vraiment tenir.",
+    sub: "L'app de formation auditive pour les musiciens adultes qui n'ont jamais renoncé à l'oreille absolue. Neuf niveaux de difficulté, un défi quotidien et une approche scientifique que tu tiendras vraiment dans la durée.",
     cta: "Télécharger sur l'App Store",
     secondary: "Comment ça marche",
     badge: "iPhone · iOS 17+",
@@ -21,7 +21,7 @@ const fr: Dictionary = {
       {
         icon: "levels",
         title: "Neuf niveaux de difficulté",
-        body: "De trois notes colorées pour débutants absolus à des suites d'accords et mélodies complètes pour étudiants sérieux.",
+        body: "De trois notes colorées pour grands débutants jusqu'aux progressions d'accords et aux mélodies pour élèves assidus.",
       },
       {
         icon: "ear",
@@ -46,12 +46,12 @@ const fr: Dictionary = {
       {
         icon: "trophy",
         title: "Classements Game Center",
-        body: "Compare XP de carrière et meilleur score de quiz à travers le monde. Succès du Commun au Légendaire.",
+        body: "Compare ton XP de carrière et ton meilleur score avec des joueurs du monde entier. Succès du Commun au Légendaire.",
       },
       {
         icon: "tuning",
         title: "Diapason de référence",
-        body: "Touche pour une gamme C-D-E-F-G-A-B propre. Synthèse de hauteur pure, sans formes d'onde floues.",
+        body: "Touche-le pour entendre une gamme de référence Do-Ré-Mi-Fa-Sol-La-Si bien nette. Synthèse sonore pure, sans formes d'onde brouillonnes.",
       },
       {
         icon: "palette",
@@ -66,7 +66,7 @@ const fr: Dictionary = {
     ],
   },
   screens: {
-    eyebrow: "Un coup d'œil dedans",
+    eyebrow: "Un coup d'œil à l'intérieur",
     title: "Conçue comme un instrument.",
     list: [
       { label: "ENTRAÎNE TON OREILLE", headline: "Écoute la note. / Nomme-la.", file: "01-hero" },
@@ -79,7 +79,7 @@ const fr: Dictionary = {
     eyebrow: "La science",
     title: "Les oreilles adultes continuent d'apprendre.",
     body: "La sagesse populaire dit que l'oreille absolue est « innée ou jamais ». Ce n'est qu'une moitié de l'histoire. Les enfants peuvent développer une oreille absolue complète pendant une fenêtre critique de l'enfance — surtout avec une formation musicale précoce. Mais les oreilles adultes continuent d'apprendre aussi : un entraînement répété et concentré affine encore la reconnaissance des notes à tout âge. Nous avons bâti l'app sur la partie de la science qui fonctionne pour les cerveaux adultes.",
-    pull: "Il n'est pas trop tard pour commencer.",
+    pull: "Il n'est jamais trop tard pour commencer.",
   },
   cta: {
     eyebrow: "Prêt quand tu l'es",
@@ -92,20 +92,20 @@ const fr: Dictionary = {
     title: "Réponses honnêtes sur l'entraînement de l'oreille.",
     items: [
       {
-        q: "Les adultes peuvent-ils vraiment apprendre l'oreille absolue ?",
+        q: "Les adultes peuvent-ils vraiment acquérir l'oreille absolue ?",
         a: "En partie — et la nuance compte. L'oreille absolue classique complète — nommer n'importe quelle note à froid — se développe le plus fiablement pendant une fenêtre critique de l'enfance. Mais les oreilles adultes continuent de progresser avec une pratique répétée et concentrée : identification plus rapide, moins d'erreurs de proximité, et de vrais progrès sur l'échelle que tu entraînes vraiment. Nous avons bâti l'app sur la partie de la science qui fonctionne pour les cerveaux adultes.",
       },
       {
         q: "Quelle est la différence entre oreille absolue et oreille parfaite ?",
-        a: "C'est la même chose. « Oreille absolue » est le terme académique, « oreille parfaite » est ce que la plupart des gens recherchent. Les deux signifient nommer une note sans référence.",
+        a: "C'est la même chose. « Oreille absolue » est le terme académique, « oreille parfaite » est ce que la plupart des gens tapent dans leur moteur de recherche. Les deux signifient nommer une note sans référence.",
       },
       {
         q: "En quoi est-ce différent d'une app d'oreille relative ou d'intervalles ?",
-        a: "La plupart des apps de formation auditive entraînent les intervalles — la distance entre deux notes — soit l'oreille relative. Cette app entraîne l'oreille absolue depuis la base : trois notes codées par couleur au départ, puis 9 niveaux jusqu'aux suites d'accords et mélodies. Les intervalles arrivent aux niveaux supérieurs, mais la fondation est l'identification de notes isolées.",
+        a: "La plupart des apps de formation auditive entraînent les intervalles — la distance entre deux notes — soit l'oreille relative. Cette app entraîne l'oreille absolue depuis la base : trois notes codées par couleur au départ, puis 9 niveaux jusqu'aux progressions d'accords et mélodies. Les intervalles arrivent aux niveaux supérieurs, mais la fondation est l'identification de notes isolées.",
       },
       {
         q: "Combien de temps pour voir des résultats ?",
-        a: "La plupart des gens voient leur courbe de précision bouger dans les 7 premiers jours de pratique quotidienne. C'est pour ça que l'écran Stats affiche des graphes sur 7, 30, 90 jours et un an complet — le changement est petit d'un jour à l'autre, évident d'une semaine à l'autre.",
+        a: "La plupart des gens voient leur courbe de précision bouger dans les 7 premiers jours de pratique quotidienne. C'est pour ça que l'écran Stats affiche des courbes sur 7, 30, 90 jours et un an complet — le changement est petit d'un jour à l'autre, évident d'une semaine à l'autre.",
       },
       {
         q: "Est-ce gratuit ?",
