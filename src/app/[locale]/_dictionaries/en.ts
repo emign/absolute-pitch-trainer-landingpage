@@ -61,7 +61,7 @@ const en: Dictionary = {
       {
         icon: "shield",
         title: "Private by design",
-        body: "No accounts, no trackers, no telemetry. Your practice history stays on your iPhone.",
+        body: "No accounts, no trackers, no telemetry. Your practice history stays on your iPhone — and in your own iCloud, if you use it.",
       },
     ],
   },

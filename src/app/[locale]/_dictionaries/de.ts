@@ -61,7 +61,7 @@ const de: Dictionary = {
       {
         icon: "shield",
         title: "Privat von Grund auf",
-        body: "Keine Accounts, keine Tracker, keine Telemetrie. Dein Übungsverlauf bleibt auf deinem iPhone.",
+        body: "Keine Accounts, keine Tracker, keine Telemetrie. Dein Übungsverlauf bleibt auf deinem iPhone – und in deiner eigenen iCloud, wenn du sie nutzt.",
       },
     ],
   },

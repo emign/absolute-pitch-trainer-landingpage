@@ -61,7 +61,7 @@ const es: Dictionary = {
       {
         icon: "shield",
         title: "Privada por diseño",
-        body: "Sin cuentas, sin rastreadores, sin telemetría. Tu historial de práctica se queda en tu iPhone.",
+        body: "Sin cuentas, sin rastreadores, sin telemetría. Tu historial de práctica se queda en tu iPhone, y en tu propio iCloud si lo usas.",
       },
     ],
   },

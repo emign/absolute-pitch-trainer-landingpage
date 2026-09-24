@@ -61,7 +61,7 @@ const zhHans: Dictionary = {
       {
         icon: "shield",
         title: "天生注重隐私",
-        body: "无账号、无追踪、无遥测。你的练习记录只留在你的 iPhone 上。",
+        body: "无账号、无追踪、无遥测。你的练习记录只留在你的 iPhone 上——以及你自己的 iCloud 中（如已开启）。",
       },
     ],
   },

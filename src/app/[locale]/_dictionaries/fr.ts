@@ -61,7 +61,7 @@ const fr: Dictionary = {
       {
         icon: "shield",
         title: "Privé par conception",
-        body: "Aucun compte, aucun tracker, aucune télémétrie. Ton historique reste sur ton iPhone.",
+        body: "Aucun compte, aucun tracker, aucune télémétrie. Ton historique reste sur ton iPhone — et dans ton propre iCloud, si tu l'utilises.",
       },
     ],
   },
