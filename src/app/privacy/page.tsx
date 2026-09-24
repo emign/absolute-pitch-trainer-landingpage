@@ -32,7 +32,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-[var(--color-text-muted)]">
-          Last updated: 19 September 2026
+          Last updated: 24 September 2026
         </p>
       </header>
 
@@ -46,10 +46,13 @@ export default function PrivacyPage() {
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-3">Summary</h2>
         <p>
-          <strong>The Pitch Trainer iOS app does not collect, store, or
-          transmit any personal data.</strong> Everything you do in the
-          app stays on your device. The marketing website uses an opt-in
-          anonymous analytics service (see <em>Analytics</em> below).
+          <strong>The Pitch Trainer iOS app does not collect any personal
+          data, and nothing is sent to the developer or to third
+          parties.</strong> Your progress stays on your device and — from
+          app version 1.2.0, if you use iCloud — in your own private
+          iCloud account, which the developer cannot access. The
+          marketing website uses an opt-in anonymous analytics service
+          (see <em>Analytics</em> below).
         </p>
       </section>
 
@@ -64,20 +67,35 @@ export default function PrivacyPage() {
       </section>
 
       <section>
-        <h2 className="text-xl font-semibold mt-10 mb-3">What stays on your device</h2>
+        <h2 className="text-xl font-semibold mt-10 mb-3">Where your data is stored</h2>
         <p>
           Your profile, settings, achievements, statistics, and practice
           history are stored locally on your iPhone using Apple&apos;s{" "}
-          <em>SwiftData</em> framework. This data never leaves your
-          device. If you delete the app, this data is removed from your
-          device by iOS.
+          <em>SwiftData</em> framework.
+        </p>
+        <p className="mt-3">
+          <strong>iCloud sync (app version 1.2.0 and later).</strong> If
+          you are signed in to iCloud, the app keeps a copy of your
+          profile, achievements, statistics, and practice history in your
+          private iCloud database (Apple <em>CloudKit</em>), so your
+          progress moves with you to a new iPhone and comes back after a
+          reinstall. This copy belongs to your iCloud account: the
+          developer cannot see or access it, and Apple&apos;s privacy
+          policy applies to it. App settings are not synced. If you are
+          not signed in to iCloud, or have turned iCloud off for the app,
+          nothing leaves your device.
+        </p>
+        <p className="mt-3">
+          Deleting the app removes the data from your iPhone. The iCloud
+          copy stays in your account until you delete it under{" "}
+          <em>Settings → your name → iCloud → Manage Storage</em>.
         </p>
       </section>
 
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-3">Subscriptions and purchases</h2>
         <p>
-          Premium subscriptions are processed entirely by Apple through
+          Premium purchases are processed entirely by Apple through
           the App Store. Pitch Trainer does not see, store, or process
           your payment information. Apple&apos;s privacy policy applies
           to those transactions and is available at{" "}
@@ -164,8 +182,11 @@ export default function PrivacyPage() {
         <p>
           Since the iOS app collects no personal data, there is no
           personal data to access, correct, export, or delete on the
-          server side. All in-app data lives on your device and can be
-          removed by deleting the app from your iPhone.
+          developer&apos;s side. In-app data lives on your device and, if
+          you use iCloud sync, in your private iCloud account — both
+          under your control: delete the app to remove it from your
+          iPhone, and remove the iCloud copy in your iCloud storage
+          settings.
         </p>
         <p className="mt-3">
           For the website&apos;s analytics: because the only identifier
