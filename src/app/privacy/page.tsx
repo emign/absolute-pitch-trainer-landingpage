@@ -46,7 +46,7 @@ export default function PrivacyPage() {
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-3">Summary</h2>
         <p>
-          <strong>The Pitch Trainer iOS app does not collect any personal
+          <strong>The Absolute Pitch Trainer iOS app does not collect any personal
           data, and nothing is sent to the developer or to third
           parties.</strong> Your progress stays on your device and — from
           app version 1.2.0, if you use iCloud — in your own private
@@ -96,7 +96,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold mt-10 mb-3">Subscriptions and purchases</h2>
         <p>
           Premium purchases are processed entirely by Apple through
-          the App Store. Pitch Trainer does not see, store, or process
+          the App Store. Absolute Pitch Trainer does not see, store, or process
           your payment information. Apple&apos;s privacy policy applies
           to those transactions and is available at{" "}
           <a
@@ -169,7 +169,7 @@ export default function PrivacyPage() {
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-3">Children</h2>
         <p>
-          Pitch Trainer does not knowingly collect any data from anyone,
+          Absolute Pitch Trainer does not knowingly collect any data from anyone,
           including children under 13. The iOS app collects no data at
           all. The website only loads analytics if a visitor consents,
           and the analytics provider receives only a hashed IP plus the
@@ -264,7 +264,7 @@ export default function PrivacyPage() {
       </section>
 
       <footer className="mt-16 pt-6 border-t border-[var(--color-rule)] text-sm text-[var(--color-text-muted)]">
-        © 2026 EmigLabs. Pitch Trainer is not affiliated with Apple
+        © 2026 EmigLabs. Absolute Pitch Trainer is not affiliated with Apple
         Inc. App Store and iPhone are trademarks of Apple Inc.
       </footer>
     </main>

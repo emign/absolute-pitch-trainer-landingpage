@@ -18,7 +18,7 @@ export default function Footer({ dict }: Props) {
             </span>
             <div className="leading-tight">
               <div className="text-[10px] uppercase tracking-[0.2em] text-[var(--color-text-muted)]">
-                Pitch Trainer
+                Absolute Pitch Trainer
               </div>
               <div className="text-sm font-extrabold tracking-tight">
                 {dict.footer.tagline}

@@ -1,6 +1,6 @@
 # landingpage
 
-Marketing landing page for **Pitch Trainer** (iOS). Next.js 16 + React 19 +
+Marketing landing page for **Absolute Pitch Trainer** (iOS). Next.js 16 + React 19 +
 Tailwind 4, fully prerendered, deployable to Vercel out of the box.
 
 ## Locales

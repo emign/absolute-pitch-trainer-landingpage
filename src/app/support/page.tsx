@@ -102,7 +102,7 @@ export default function SupportPage() {
       <section>
         <h2 className="text-xl font-semibold mt-10 mb-3">Get in touch</h2>
         <p>
-          Write to <ObfuscatedEmail /> — in English or German. Pitch Trainer
+          Write to <ObfuscatedEmail /> — in English or German. Absolute Pitch Trainer
           is built by one developer, and every message is read by a human.
         </p>
         <p className="mt-3">

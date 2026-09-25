@@ -19,14 +19,14 @@ export default function Nav({ locale, dict }: Props) {
         <Link
           href={`/${locale}`}
           className="flex items-center gap-2.5 group"
-          aria-label="Pitch Trainer"
+          aria-label="Absolute Pitch Trainer"
         >
           <span className="relative h-9 w-9 rounded-xl overflow-hidden ring-1 ring-white/10 shadow-lg shadow-black/40">
             <PaletteIcon sizes="36px" priority className="object-cover" />
           </span>
           <span className="hidden sm:flex flex-col leading-tight">
             <span className="text-[11px] uppercase tracking-[0.18em] text-[var(--color-text-muted)]">
-              Pitch
+              Absolute Pitch
             </span>
             <span className="text-sm font-extrabold tracking-tight">
               Trainer
