@@ -31,6 +31,14 @@ export function isLocale(value: string): value is Locale {
 export const APP_STORE_URL =
   "https://apps.apple.com/app/absolutepitchtrainer/id6762354184";
 
+// Same link with App Store campaign tokens, for every download button on
+// the page: App Store Connect → Analytics → Campaigns then shows how many
+// downloads come from the website (campaign "website"; it appears once
+// 5 Apple Accounts installed through it). `pt` is the provider token of
+// the developer account. Keep APP_STORE_URL bare for structured data.
+export const APP_STORE_CAMPAIGN = "pt=117720297&ct=website";
+export const APP_STORE_DOWNLOAD_URL = `${APP_STORE_URL}?${APP_STORE_CAMPAIGN}&mt=8`;
+
 // The privacy policy + Impressum now live on the landing page itself
 // (see `src/app/privacy/page.tsx`). The legacy GitHub-Pages URL at
 // `emign.github.io/absolute-pitch-trainer-legal/` is no longer

@@ -28,7 +28,9 @@ export const metadata: Metadata = {
   // Safari on iOS reads this and shows the native install banner —
   // zero-click path from web visit to App Store sheet.
   other: {
-    "apple-itunes-app": "app-id=6762354184",
+    // affiliate-data carries the campaign tokens, so installs from the
+    // banner count towards the "website" campaign as well.
+    "apple-itunes-app": "app-id=6762354184, affiliate-data=pt=117720297&ct=website",
   },
   // Favicon + apple-touch are picked up from src/app/icon.png and
   // src/app/apple-icon.png via the Next.js file convention.

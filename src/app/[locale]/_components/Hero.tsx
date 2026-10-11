@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { AppleIcon, ArrowRightIcon, MusicNoteIcon } from "./Icons";
-import { APP_STORE_URL, type Locale } from "../_dictionaries/config";
+import { APP_STORE_DOWNLOAD_URL, type Locale } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
 
 type Props = {
@@ -48,7 +48,7 @@ export default function Hero({ locale, dict }: Props) {
 
           <div className="mt-9 flex flex-wrap items-center gap-3 sm:gap-4">
             <a
-              href={APP_STORE_URL}
+              href={APP_STORE_DOWNLOAD_URL}
               target="_blank"
               rel="noopener"
               className="pulse-ring group inline-flex items-center gap-2.5 rounded-full bg-[var(--color-primary)] px-6 py-3.5 text-sm sm:text-base font-bold text-white shadow-2xl shadow-[var(--color-primary)]/40 hover:bg-[var(--color-primary-bright)] transition"

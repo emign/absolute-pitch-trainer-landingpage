@@ -4,7 +4,7 @@ import PaletteSwitcher from "./PaletteSwitcher";
 import PaletteIcon from "./PaletteIcon";
 import { AppleIcon } from "./Icons";
 import type { Locale } from "../_dictionaries/config";
-import { APP_STORE_URL } from "../_dictionaries/config";
+import { APP_STORE_DOWNLOAD_URL } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
 
 type Props = {
@@ -38,7 +38,7 @@ export default function Nav({ locale, dict }: Props) {
           <PaletteSwitcher label={dict.footer.themeLabel} />
           <LanguageSwitcher current={locale} label={dict.footer.languageLabel} />
           <a
-            href={APP_STORE_URL}
+            href={APP_STORE_DOWNLOAD_URL}
             target="_blank"
             rel="noopener"
             className="flex items-center gap-2 rounded-full bg-[var(--color-primary)] px-4 py-2 text-sm font-bold text-white hover:bg-[var(--color-primary-bright)] transition shadow-lg shadow-[var(--color-primary)]/30"
