@@ -13,6 +13,7 @@ const ja: Dictionary = {
     cta: "App Storeで入手",
     secondary: "使い方を見る",
     badge: "iPhone · iOS 17+",
+    videoPlay: "音声付きで再生",
   },
   features: {
     eyebrow: "本物の耳のために",

@@ -13,6 +13,7 @@ const zhHans: Dictionary = {
     cta: "在 App Store 下载",
     secondary: "了解如何使用",
     badge: "iPhone · iOS 17+",
+    videoPlay: "播放（有声）",
   },
   features: {
     eyebrow: "为真正的耳朵而设计",

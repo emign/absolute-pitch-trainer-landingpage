@@ -11,6 +11,7 @@ export type Dictionary = {
     cta: string;
     secondary: string;
     badge: string;
+    videoPlay: string;
   };
   features: {
     title: string;

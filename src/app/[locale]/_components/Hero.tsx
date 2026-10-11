@@ -1,4 +1,4 @@
-import Image from "next/image";
+import HeroVideo from "./HeroVideo";
 import { AppleIcon, ArrowRightIcon, MusicNoteIcon } from "./Icons";
 import { APP_STORE_DOWNLOAD_URL, type Locale } from "../_dictionaries/config";
 import type { Dictionary } from "../_dictionaries/types";
@@ -10,8 +10,7 @@ type Props = {
 
 const NOTE_LABELS = ["C", "D", "E", "F", "G", "A", "B"] as const;
 
-export default function Hero({ locale, dict }: Props) {
-  const screenSrc = `/screens/${locale}/01-hero.png`;
+export default function Hero({ dict }: Props) {
   return (
     <section className="relative overflow-hidden border-b border-[var(--color-rule)]/60">
       <div className="aurora absolute inset-0 -z-10" aria-hidden />
@@ -80,24 +79,13 @@ export default function Hero({ locale, dict }: Props) {
           </div>
         </div>
 
-        {/* Phone mockup */}
-        <div className="relative mx-auto w-full max-w-[340px] sm:max-w-[380px] drift">
+        {/* Marketing short "Can you name this note?" — brings its own phone frame */}
+        <div className="relative mx-auto w-full max-w-[340px] sm:max-w-[380px]">
           <div
             className="absolute -inset-10 -z-10 rounded-full bg-[var(--color-primary)]/15 blur-3xl"
             aria-hidden
           />
-          <div className="phone-frame">
-            <div className="phone-screen aspect-[9/19.5]">
-              <Image
-                src={screenSrc}
-                alt=""
-                fill
-                priority
-                sizes="(max-width: 1024px) 380px, 420px"
-                className="object-cover"
-              />
-            </div>
-          </div>
+          <HeroVideo label={dict.hero.videoPlay} />
         </div>
       </div>
     </section>

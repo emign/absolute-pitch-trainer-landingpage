@@ -13,6 +13,7 @@ const en: Dictionary = {
     cta: "Download on the App Store",
     secondary: "How it works",
     badge: "iPhone · iOS 17+",
+    videoPlay: "Play with sound",
   },
   features: {
     eyebrow: "Built for real ears",
