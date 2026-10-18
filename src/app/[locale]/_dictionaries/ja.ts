@@ -71,10 +71,11 @@ const ja: Dictionary = {
     title: "楽器のようにデザインしました。",
     list: [
       { label: "耳を鍛える", headline: "音を聴いて、 / 音を当てる。", file: "01-hero" },
-      { label: "苦手な音をトレーニング", headline: "苦手な音を見つけて、 / 克服しよう。", file: "02-weaknotes" },
-      { label: "絶好調", headline: "ゾーンに / 入ろう。", file: "03-onfire" },
-      { label: "あなたの進歩", headline: "毎日、 / すべての音を / 正確に。", file: "04-progress" },
-      { label: "ランクを上げる", headline: "レベルアップ。 / 連続を守ろう。", file: "05-rank" },
+      { label: "サバイバルモード", headline: "ライフは1つ。 / どこまで行ける？", file: "02-survival" },
+      { label: "苦手な音をトレーニング", headline: "苦手な音を見つけて、 / 克服しよう。", file: "03-weaknotes" },
+      { label: "絶好調", headline: "ゾーンに / 入ろう。", file: "04-onfire" },
+      { label: "あなたの進歩", headline: "毎日、 / すべての音を / 正確に。", file: "05-progress" },
+      { label: "ランクを上げる", headline: "レベルアップ。 / 連続を守ろう。", file: "06-rank" },
     ],
   },
   science: {

@@ -34,7 +34,7 @@ const PALETTE_ICONS = [
 const PALETTE_ICONS_DEST = path.join(__dirname, "..", "public", "app-icons");
 
 const SIZE = "1125x2436";
-const SCREENS = ["01-hero", "02-weaknotes", "03-onfire", "04-progress", "05-rank"];
+const SCREENS = ["01-hero", "02-survival", "03-weaknotes", "04-onfire", "05-progress", "06-rank"];
 const LOCALES = [
   { id: "en",      folder: "en-US",   token: "en" },
   { id: "de",      folder: "de-DE",   token: "de" },

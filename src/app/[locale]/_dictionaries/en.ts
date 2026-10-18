@@ -71,10 +71,11 @@ const en: Dictionary = {
     title: "Designed like an instrument.",
     list: [
       { label: "TRAIN YOUR EAR", headline: "Hear the note. / Name the note.", file: "01-hero" },
-      { label: "WEAK NOTES TRAINING", headline: "Find your weak notes. / Fix them.", file: "02-weaknotes" },
-      { label: "HOT STREAKS", headline: "Catch fire. / Stay on it.", file: "03-onfire" },
-      { label: "YOUR PROGRESS", headline: "Every note, / every day, / sharper.", file: "04-progress" },
-      { label: "CLIMB THE RANKS", headline: "Level up. / Lock in streaks.", file: "05-rank" },
+      { label: "SURVIVAL MODE", headline: "One life. / How far can you go?", file: "02-survival" },
+      { label: "WEAK NOTES TRAINING", headline: "Find your weak notes. / Fix them.", file: "03-weaknotes" },
+      { label: "HOT STREAKS", headline: "Catch fire. / Stay on it.", file: "04-onfire" },
+      { label: "YOUR PROGRESS", headline: "Every note, / every day, / sharper.", file: "05-progress" },
+      { label: "CLIMB THE RANKS", headline: "Level up. / Lock in streaks.", file: "06-rank" },
     ],
   },
   science: {
