@@ -26,8 +26,8 @@ const de: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Drei Spielmodi",
-        body: "Übung – entspannt, ohne Druck. Quiz – auf Zeit, mit Punkten und Bestenliste. Schwache Noten – trainiert gezielt die Töne, die du verfehlst.",
+        title: "Vier Spielmodi",
+        body: "Übung – entspannt, ohne Druck. Quiz – auf Zeit, mit Punkten und Bestenliste. Survival – ein Leben: Wie viele Töne schaffst du in Folge? Schwache Noten – trainiert gezielt die Töne, die du verfehlst.",
       },
       {
         icon: "flame",
@@ -36,8 +36,8 @@ const de: Dictionary = {
       },
       {
         icon: "calendar",
-        title: "Tägliche Challenge",
-        body: "Jeden Tag ein frischer Test – damit die Gewohnheit und der Kalender lebendig bleiben.",
+        title: "Tägliche Herausforderung",
+        body: "Jeden Wochentag eine andere: montags weiße Tasten, dann schwarze Tasten, Intervalle, drei Oktaven, Akkorde, Präzision – und sonntags Melodien. So probierst du auch ohne Premium jedes Level einmal pro Woche aus.",
       },
       {
         icon: "chart",
@@ -47,7 +47,7 @@ const de: Dictionary = {
       {
         icon: "trophy",
         title: "Game-Center-Bestenlisten",
-        body: "Vergleiche Karriere-XP und beste Quiz-Punktzahl weltweit. Erfolge von Gewöhnlich bis Legendär.",
+        body: "Vergleiche Karriere-XP, beste Quiz-Punktzahl und deinen längsten Survival-Lauf weltweit. Teile deine Serie oder Punktzahl als Bild für deine Story – und fordere deine Freunde heraus.",
       },
       {
         icon: "tuning",
@@ -87,7 +87,7 @@ const de: Dictionary = {
   cta: {
     eyebrow: "Bereit, wenn du es bist",
     title: "Trainiere das Gehör, von dem Musiker jahrelang träumen.",
-    body: "Kostenlos starten. Premium schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei.",
+    body: "Kostenlos starten – Survival und die Tägliche Herausforderung inklusive. Premium ist ein Einmalkauf, kein Abo: Es schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik, Gitarre & Geige und exklusive App-Icons frei.",
     button: "Im App Store laden",
   },
   faq: {
@@ -112,7 +112,7 @@ const de: Dictionary = {
       },
       {
         q: "Ist die App kostenlos?",
-        a: "Ja – das Kerntraining ist für immer kostenlos. Premium schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
+        a: "Ja – das Kerntraining ist für immer kostenlos, Survival und die Tägliche Herausforderung ebenso. Premium ist ein Einmalkauf, kein Abo. Es schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik, Gitarre & Geige und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
       },
     ],
   },

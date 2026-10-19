@@ -26,8 +26,8 @@ const fr: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Trois modes de jeu",
-        body: "Entraînement — calme, sans pression. Quiz — chronométré, noté, classé. Notes Faibles — travaille précisément les notes que tu rates.",
+        title: "Quatre modes de jeu",
+        body: "Entraînement — calme, sans pression. Quiz — chronométré, noté, classé. Survie — une seule vie : combien de notes d’affilée ? Notes Faibles — travaille précisément les notes que tu rates.",
       },
       {
         icon: "flame",
@@ -37,7 +37,7 @@ const fr: Dictionary = {
       {
         icon: "calendar",
         title: "Défi quotidien",
-        body: "Un nouveau test chaque jour pour garder l'habitude — et le calendrier — en vie.",
+        body: "Un défi différent chaque jour de la semaine : touches blanches le lundi, puis touches noires, intervalles, trois octaves, accords, précision — et mélodies le dimanche. Même sans Premium, tu essaies ainsi chaque niveau une fois par semaine.",
       },
       {
         icon: "chart",
@@ -47,7 +47,7 @@ const fr: Dictionary = {
       {
         icon: "trophy",
         title: "Classements Game Center",
-        body: "Compare ton XP de carrière et ton meilleur score avec des joueurs du monde entier. Succès du Commun au Légendaire.",
+        body: "Compare ton XP de carrière, ton meilleur score et ta plus longue série en Survie avec des joueurs du monde entier. Partage ta série ou ton score en image pour ta story — et défie tes amis.",
       },
       {
         icon: "tuning",
@@ -87,7 +87,7 @@ const fr: Dictionary = {
   cta: {
     eyebrow: "Prêt quand tu l'es",
     title: "Entraîne l'oreille dont les musiciens rêvent pendant des années.",
-    body: "Gratuit au départ. Premium débloque les niveaux supérieurs, l'entraînement des Notes Faibles, les statistiques avancées et les icônes exclusives.",
+    body: "Gratuit au départ — Survie et Défi quotidien inclus. Premium est un achat unique, sans abonnement : il débloque les niveaux supérieurs, l'entraînement des Notes Faibles, les statistiques avancées, la guitare et le violon, et les icônes exclusives.",
     button: "Télécharger sur l'App Store",
   },
   faq: {
@@ -112,7 +112,7 @@ const fr: Dictionary = {
       },
       {
         q: "Est-ce gratuit ?",
-        a: "Oui — l'entraînement de base est gratuit pour toujours. Premium débloque les niveaux supérieurs (accords, mélodies), l'entraînement des Notes Faibles, les statistiques avancées et les icônes exclusives. Pas de compte, pas de tracker, pas de pub.",
+        a: "Oui — l'entraînement de base est gratuit pour toujours, tout comme la Survie et le Défi quotidien. Premium est un achat unique, sans abonnement. Il débloque les niveaux supérieurs (accords, mélodies), l'entraînement des Notes Faibles, les statistiques avancées, la guitare et le violon, et les icônes exclusives. Pas de compte, pas de tracker, pas de pub.",
       },
     ],
   },

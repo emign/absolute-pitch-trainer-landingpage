@@ -26,8 +26,8 @@ const es: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Tres modos de juego",
-        body: "Práctica — tranquila, sin presión. Quiz — contrarreloj, con puntuación y clasificación. Notas Débiles — entrena justo las notas que fallas.",
+        title: "Cuatro modos de juego",
+        body: "Práctica — tranquila, sin presión. Quiz — contrarreloj, con puntuación y clasificación. Supervivencia — una sola vida: ¿cuántas notas seguidas aguantas? Notas Débiles — entrena justo las notas que fallas.",
       },
       {
         icon: "flame",
@@ -36,8 +36,8 @@ const es: Dictionary = {
       },
       {
         icon: "calendar",
-        title: "Reto diario",
-        body: "Una prueba nueva cada día para mantener vivo el hábito — y el calendario.",
+        title: "Reto Diario",
+        body: "Un reto distinto cada día de la semana: teclas blancas el lunes, luego teclas negras, intervalos, tres octavas, acordes, precisión — y melodías el domingo. Así, incluso sin Premium, pruebas cada nivel una vez por semana.",
       },
       {
         icon: "chart",
@@ -47,7 +47,7 @@ const es: Dictionary = {
       {
         icon: "trophy",
         title: "Clasificaciones de Game Center",
-        body: "Compara XP de carrera y mejor puntuación con jugadores de todo el mundo. Logros de Común a Legendario.",
+        body: "Compara XP de carrera, mejor puntuación y tu mejor racha en Supervivencia con jugadores de todo el mundo. Comparte tu racha o tu puntuación como imagen para tus historias y reta a tus amigos.",
       },
       {
         icon: "tuning",
@@ -87,7 +87,7 @@ const es: Dictionary = {
   cta: {
     eyebrow: "Lista cuando tú lo estés",
     title: "Entrena el oído con el que los músicos sueñan durante años.",
-    body: "Empieza gratis. Premium desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos.",
+    body: "Empieza gratis — Supervivencia y el Reto Diario incluidos. Premium es un pago único, sin suscripción: desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas, guitarra y violín, e iconos exclusivos.",
     button: "Descargar en el App Store",
   },
   faq: {
@@ -112,7 +112,7 @@ const es: Dictionary = {
       },
       {
         q: "¿Es gratis?",
-        a: "Sí — el entrenamiento básico es gratis para siempre. Premium desbloquea los niveles de dificultad más altos (acordes, melodías), el entrenamiento de Notas Débiles, estadísticas avanzadas e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
+        a: "Sí — el entrenamiento básico es gratis para siempre, igual que Supervivencia y el Reto Diario. Premium es un pago único, sin suscripción. Desbloquea los niveles de dificultad más altos (acordes, melodías), el entrenamiento de Notas Débiles, estadísticas avanzadas, guitarra y violín, e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
       },
     ],
   },

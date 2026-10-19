@@ -26,8 +26,8 @@ const en: Dictionary = {
       },
       {
         icon: "ear",
-        title: "Three game modes",
-        body: "Practice keeps the pressure off. Quiz puts your accuracy on the clock and on the scoreboard. Weak Notes drills exactly the notes you keep missing.",
+        title: "Four game modes",
+        body: "Practice keeps the pressure off. Quiz puts your accuracy on the clock and on the scoreboard. Survival gives you one life — how many notes in a row can you name? Weak Notes drills exactly the notes you keep missing.",
       },
       {
         icon: "flame",
@@ -37,7 +37,7 @@ const en: Dictionary = {
       {
         icon: "calendar",
         title: "Daily Challenge",
-        body: "A fresh test every day to keep the habit — and the calendar — alive.",
+        body: "A different challenge for every day of the week: white keys on Monday, then black keys, intervals, three octaves, chords, precision — and melodies on Sunday. So even without Premium, you get to try every level once a week.",
       },
       {
         icon: "chart",
@@ -47,7 +47,7 @@ const en: Dictionary = {
       {
         icon: "trophy",
         title: "Game Center leaderboards",
-        body: "Compare career XP and best quiz score with players around the world. Achievements span Common to Legendary.",
+        body: "Compare career XP, best quiz score and your longest Survival run with players around the world. Then share your streak or score as a story-ready image and dare your friends to beat it.",
       },
       {
         icon: "tuning",
@@ -87,7 +87,7 @@ const en: Dictionary = {
   cta: {
     eyebrow: "Ready when you are",
     title: "Train the ear musicians spend years dreaming about.",
-    body: "Free to start. Premium unlocks the higher difficulty levels, Weak Notes training, advanced statistics, and exclusive app icons.",
+    body: "Free to start — Survival and the Daily Challenge included. Premium is a one-time purchase, no subscription: it unlocks the higher difficulty levels, Weak Notes training, advanced statistics, guitar & violin, and exclusive app icons.",
     button: "Download on the App Store",
   },
   faq: {
@@ -112,7 +112,7 @@ const en: Dictionary = {
       },
       {
         q: "Is the app free?",
-        a: "Yes — the core training is free forever. Premium unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, and exclusive app icons. No accounts, no trackers, no ads.",
+        a: "Yes — the core training is free forever, and so are Survival and the Daily Challenge. Premium is a one-time purchase, no subscription. It unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, guitar and violin sounds, and exclusive app icons. No accounts, no trackers, no ads.",
       },
     ],
   },
