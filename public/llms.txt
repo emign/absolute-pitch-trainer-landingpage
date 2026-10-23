@@ -1,0 +1,31 @@
+# Absolute Pitch Trainer
+
+> Absolute Pitch Trainer is an iPhone app (iOS 17+) for ear training and perfect pitch (absolute pitch): you hear a note and name it. It is built for adult musicians, has nine difficulty levels from three colour-coded notes up to chords and melodies, and is free to start. Premium is a one-time purchase with no subscription. Made by EmigLabs.
+
+Key facts:
+
+- Platform: iPhone, iOS 17 or later. App Store: https://apps.apple.com/app/absolutepitchtrainer/id6762354184
+- Languages: English, German, French, Spanish, Japanese, Simplified Chinese.
+- Price model: core training, Survival mode and the Daily Challenge are free. Premium is a one-time purchase (no subscription) that unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, guitar and violin sounds, and extra app icons.
+- Privacy: no accounts, no ads, no trackers, no telemetry. Practice history stays on the device and, optionally, in the user's own iCloud.
+- Game modes: Practice (no pressure), Quiz (timed, scored), Survival (one life, how many notes in a row), Weak Notes (drills the notes the user keeps missing).
+- Other features: Daily Challenge with a different theme each weekday, "On Fire" streaks, accuracy statistics over 7/30/90 days and one year with per-note mastery, Game Center leaderboards, shareable score images, a reference tuning fork, a recorded grand piano sound, four colour themes.
+- Approach: trains absolute pitch directly (naming single notes without a reference tone), unlike interval apps that train relative pitch. Intervals, chords and melodies come in at the higher levels. The app does not promise full childhood-style perfect pitch; it is about measurable improvement in note recognition through daily practice.
+
+## Pages
+
+- [Home (English)](https://absolutepitchtrainer.app/en): features, game modes, screenshots, the science behind it and FAQ
+- [Support & Feedback](https://absolutepitchtrainer.app/support): help with purchases, restoring Premium, reminders, and reporting problems
+- [Privacy Policy & Impressum](https://absolutepitchtrainer.app/privacy): what data the app and the website handle
+
+## Other languages
+
+- [Deutsch](https://absolutepitchtrainer.app/de)
+- [Français](https://absolutepitchtrainer.app/fr)
+- [Español](https://absolutepitchtrainer.app/es)
+- [日本語](https://absolutepitchtrainer.app/ja)
+- [简体中文](https://absolutepitchtrainer.app/zh-Hans)
+
+## Optional
+
+- [YouTube channel](https://www.youtube.com/@absolutepitchtrainer): short "name this note" ear-training quizzes
