@@ -32,7 +32,7 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-sm text-[var(--color-text-muted)]">
-          Last updated: 24 September 2026
+          Last updated: 25 October 2026
         </p>
       </header>
 
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold mt-10 mb-3">Summary</h2>
         <p>
           <strong>The Absolute Pitch Trainer iOS app does not collect any personal
-          data, and nothing is sent to the developer or to third
+          data, and the app sends nothing to the developer or to third
           parties.</strong> Your progress stays on your device and — from
           app version 1.2.0, if you use iCloud — in your own private
           iCloud account, which the developer cannot access. The
@@ -107,6 +107,21 @@ export default function PrivacyPage() {
           >
             apple.com/legal/privacy
           </a>.
+        </p>
+        <p className="mt-3">
+          When someone buys Premium, Apple informs us about the purchase
+          (App Store Server Notifications). This message comes from
+          Apple, not from the app, and contains the product, the price,
+          the App Store country and transaction numbers — never your
+          name, Apple ID, email address or payment details. A small
+          service that Cloudflare, Inc. runs for us as a processor checks
+          that the message really comes from Apple and forwards product,
+          price and country as a push message to the developer&apos;s
+          phone through the push service ntfy.sh. The transaction numbers
+          are discarded; nothing is stored. The same applies to refunds.
+          Data transfers to Cloudflare in the USA rely on EU Standard
+          Contractual Clauses. Legal basis: Art. 6(1)(f) GDPR — our legitimate interest in
+          knowing about sales and refunds of our app.
         </p>
       </section>
 
