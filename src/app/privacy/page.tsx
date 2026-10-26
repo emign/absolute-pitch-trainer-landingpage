@@ -117,7 +117,7 @@ export default function PrivacyPage() {
           service that Cloudflare, Inc. runs for us as a processor checks
           that the message really comes from Apple and forwards product,
           price and country as a push message to the developer&apos;s
-          phone through the push service ntfy.sh. The transaction numbers
+          phone through the push service Pushover (Pushover, LLC, USA). The transaction numbers
           are discarded; nothing is stored. The same applies to refunds.
           Data transfers to Cloudflare in the USA rely on EU Standard
           Contractual Clauses. Legal basis: Art. 6(1)(f) GDPR — our legitimate interest in
