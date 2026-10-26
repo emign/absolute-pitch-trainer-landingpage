@@ -117,7 +117,7 @@ const fr: Dictionary = {
     ],
   },
   consent: {
-    body: "Nous utilisons des statistiques anonymes (Vercel) pour savoir quelles pages sont visitées. Pas de cookies, pas de suivi entre sites. Plus d'infos dans la",
+    body: "Nous utilisons des statistiques anonymes (Vercel, Metricool) pour savoir quelles pages sont visitées. Pas de cookies, pas de suivi entre sites. Plus d'infos dans la",
     accept: "Accepter",
     decline: "Refuser",
   },

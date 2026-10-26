@@ -1,6 +1,7 @@
 "use client";
 
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 import { useEffect, useState } from "react";
 import type { Dictionary } from "../_dictionaries/types";
 import { PRIVACY_URL } from "../_dictionaries/config";
@@ -20,6 +21,18 @@ import { PRIVACY_URL } from "../_dictionaries/config";
 /// (inkl. IP-Adresse, die täglich rotierend gehasht wird) — unter
 /// strenger TTDSG-§-25-Auslegung gilt das als Zugriff auf das
 /// Endgerät und ist daher einwilligungspflichtig.
+///
+/// Metricool (Web-Statistik für die Social-Kampagnen) läuft hinter
+/// derselben Einwilligung: be.js lädt ein Zählpixel mit URL,
+/// Fenstergröße und Referrer — ohne Cookies, aber mit IP an Metricool.
+
+const METRICOOL_HASH = "320f5b03d48a333da37e687f96a0fdab";
+
+declare global {
+  interface Window {
+    beTracker?: { t: (params: { hash: string }) => void };
+  }
+}
 
 type Decision = "pending" | "accepted" | "declined";
 const STORAGE_KEY = "pitch-analytics-consent";
@@ -59,7 +72,16 @@ export default function ConsentAndAnalytics({ dict }: Props) {
 
   return (
     <>
-      {decision === "accepted" && <Analytics />}
+      {decision === "accepted" && (
+        <>
+          <Analytics />
+          <Script
+            src="https://tracker.metricool.com/resources/be.js"
+            strategy="afterInteractive"
+            onLoad={() => window.beTracker?.t({ hash: METRICOOL_HASH })}
+          />
+        </>
+      )}
       {decision === "pending" && (
         <div className="fixed inset-x-0 bottom-0 z-50 px-4 pb-4 sm:px-6 sm:pb-6 pointer-events-none">
           <div

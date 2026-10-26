@@ -172,6 +172,20 @@ export default function PrivacyPage() {
           <li><strong>Retention</strong>: hashed identifier 24 h; aggregated counts 12 months.</li>
           <li><strong>Right to withdraw</strong>: you can withdraw consent at any time. The button below clears the saved decision and re-shows the consent banner on the next visit.</li>
         </ul>
+        <h3 className="text-lg font-semibold mt-8 mb-2">Metricool</h3>
+        <p>
+          With the same consent we also load the <strong>Metricool</strong> web
+          statistics pixel, which helps us see how visitors from our social
+          media videos use this site. It sends the URL of the page you
+          visit, the referring URL and your browser window size to
+          Metricool; as with any request, Metricool also receives your IP
+          address and browser User-Agent. The script itself sets no cookies.
+        </p>
+        <ul className="mt-4 list-disc pl-6 space-y-1">
+          <li><strong>Legal basis</strong>: your consent (Art. 6(1)(a) GDPR; § 25(1) TTDSG).</li>
+          <li><strong>Processor</strong>: Metricool Software S.L., Spain (EU).</li>
+          <li><strong>Right to withdraw</strong>: the button below withdraws consent for Vercel and Metricool together.</li>
+        </ul>
         <RevokeConsent
           revokeLabel="Withdraw analytics consent"
           acceptedLabel="Current status: analytics consent given. Pageviews are being recorded on this device."
@@ -187,7 +201,7 @@ export default function PrivacyPage() {
           Absolute Pitch Trainer does not knowingly collect any data from anyone,
           including children under 13. The iOS app collects no data at
           all. The website only loads analytics if a visitor consents,
-          and the analytics provider receives only a hashed IP plus the
+          and the analytics providers receive only the IP address plus the
           path visited — no PII.
         </p>
       </section>
