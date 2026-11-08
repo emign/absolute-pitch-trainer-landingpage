@@ -21,30 +21,59 @@ export default function Features({ dict }: Props) {
       </div>
 
       <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {dict.features.list.map((f, idx) => (
-          <article
-            key={idx}
-            className="group relative overflow-hidden rounded-3xl border border-[var(--color-rule)] bg-[var(--color-bg-lift)]/60 p-6 sm:p-7 transition hover:border-[var(--color-primary)]/50 hover:bg-[var(--color-surface)]/70"
-          >
-            <div
-              className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[var(--color-primary)]/10 blur-2xl opacity-0 group-hover:opacity-100 transition"
-              aria-hidden
-            />
-            <div className="relative flex h-12 w-12 items-center justify-center rounded-2xl border border-[var(--color-rule)] bg-[var(--color-surface)] text-[var(--color-secondary)] group-hover:text-[var(--color-primary-bright)] transition">
-              <FeatureIcon name={f.icon} size={26} />
-            </div>
-            <h3 className="relative mt-5 text-lg font-extrabold tracking-tight text-[var(--color-text)]">
-              {f.title}
-            </h3>
-            <p className="relative mt-2 text-sm leading-relaxed text-[var(--color-text-muted)]">
-              {f.body}
-            </p>
-            <div
-              className="relative mt-5 h-px w-12 bg-gradient-to-r from-[var(--color-primary)]/60 to-transparent"
-              aria-hidden
-            />
-          </article>
-        ))}
+        {dict.features.list.map((f, idx) =>
+          f.badge ? (
+            // Highlighted "new" card: spans the whole grid so the cards below stay an even 3 × 3.
+            <article
+              key={idx}
+              className="group relative overflow-hidden rounded-3xl border border-[var(--color-primary)]/40 bg-[var(--color-surface)]/70 p-6 sm:p-8 sm:col-span-2 lg:col-span-3 transition hover:border-[var(--color-primary)]/70"
+            >
+              <div
+                className="absolute -right-16 -top-16 h-48 w-48 rounded-full bg-[var(--color-primary)]/15 blur-3xl"
+                aria-hidden
+              />
+              <div className="relative flex flex-col gap-5 sm:flex-row sm:items-start sm:gap-7">
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[var(--color-primary)]/40 bg-[var(--color-bg-lift)] text-[var(--color-primary-bright)]">
+                  <FeatureIcon name={f.icon} size={30} />
+                </div>
+                <div className="max-w-3xl">
+                  <span className="inline-flex items-center rounded-full bg-[var(--color-primary)]/15 px-2.5 py-0.5 text-[11px] font-bold tracking-[0.14em] text-[var(--color-primary-bright)] uppercase">
+                    {f.badge}
+                  </span>
+                  <h3 className="mt-3 text-xl sm:text-2xl font-extrabold tracking-tight text-[var(--color-text)]">
+                    {f.title}
+                  </h3>
+                  <p className="mt-2 text-[15px] leading-relaxed text-[var(--color-text-muted)]">
+                    {f.body}
+                  </p>
+                </div>
+              </div>
+            </article>
+          ) : (
+            <article
+              key={idx}
+              className="group relative overflow-hidden rounded-3xl border border-[var(--color-rule)] bg-[var(--color-bg-lift)]/60 p-6 sm:p-7 transition hover:border-[var(--color-primary)]/50 hover:bg-[var(--color-surface)]/70"
+            >
+              <div
+                className="absolute -right-12 -top-12 h-32 w-32 rounded-full bg-[var(--color-primary)]/10 blur-2xl opacity-0 group-hover:opacity-100 transition"
+                aria-hidden
+              />
+              <div className="relative flex h-12 w-12 items-center justify-center rounded-2xl border border-[var(--color-rule)] bg-[var(--color-surface)] text-[var(--color-secondary)] group-hover:text-[var(--color-primary-bright)] transition">
+                <FeatureIcon name={f.icon} size={26} />
+              </div>
+              <h3 className="relative mt-5 text-lg font-extrabold tracking-tight text-[var(--color-text)]">
+                {f.title}
+              </h3>
+              <p className="relative mt-2 text-sm leading-relaxed text-[var(--color-text-muted)]">
+                {f.body}
+              </p>
+              <div
+                className="relative mt-5 h-px w-12 bg-gradient-to-r from-[var(--color-primary)]/60 to-transparent"
+                aria-hidden
+              />
+            </article>
+          ),
+        )}
       </div>
     </section>
   );

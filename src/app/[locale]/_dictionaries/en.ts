@@ -20,6 +20,12 @@ const en: Dictionary = {
     title: "Everything you need. Nothing you don't.",
     list: [
       {
+        icon: "transpose",
+        badge: "New in 1.7",
+        title: "Transposition for your instrument",
+        body: "Play clarinet, trumpet, sax or horn? Set B♭, A, E♭ or F and answer with the note your instrument reads. You see the written note big and the concert pitch small underneath, and switch with one tap when you change instruments. Your stats stay in concert pitch. Premium.",
+      },
+      {
         icon: "levels",
         title: "Nine levels of difficulty",
         body: "From three coloured notes for absolute beginners to full chord progressions and melodies for serious students.",
@@ -87,7 +93,7 @@ const en: Dictionary = {
   cta: {
     eyebrow: "Ready when you are",
     title: "Train the ear musicians spend years dreaming about.",
-    body: "Free to start — Survival and the Daily Challenge included. Premium is a one-time purchase, no subscription: it unlocks the higher difficulty levels, Weak Notes training, advanced statistics, guitar & violin, and exclusive app icons.",
+    body: "Free to start — Survival and the Daily Challenge included. Premium is a one-time purchase, no subscription: it unlocks the higher difficulty levels, Weak Notes training, advanced statistics, transposition for B♭, A, E♭ and F instruments, guitar & violin, and exclusive app icons.",
     button: "Download on the App Store",
   },
   faq: {
@@ -111,8 +117,12 @@ const en: Dictionary = {
         a: "Most people see their accuracy curve move within the first 7 days of daily practice. That's why the Stats screen shows 7, 30, 90 day, and 1 year accuracy graphs — the change is small day-to-day and obvious week-to-week.",
       },
       {
+        q: "I play clarinet, trumpet or sax. Can I train in my instrument's key?",
+        a: "Yes. Under Settings → Transposition, choose B♭ (clarinet, trumpet, tenor sax), A (clarinet), E♭ (alto and baritone sax) or F (horn). The app then shows the note your instrument reads, with the concert pitch underneath, and you answer with the written note. A quick switch in every session helps when you change between A and B♭ clarinet. Statistics and leaderboards stay in concert pitch. Transposition is part of Premium.",
+      },
+      {
         q: "Is the app free?",
-        a: "Yes — the core training is free forever, and so are Survival and the Daily Challenge. Premium is a one-time purchase, no subscription. It unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, guitar and violin sounds, and exclusive app icons. No accounts, no trackers, no ads.",
+        a: "Yes — the core training is free forever, and so are Survival and the Daily Challenge. Premium is a one-time purchase, no subscription. It unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, transposition for B♭, A, E♭ and F instruments, guitar and violin sounds, and exclusive app icons. No accounts, no trackers, no ads.",
       },
     ],
   },

@@ -148,6 +148,19 @@ export function MusicNoteIcon({ size = 18, ...rest }: IconProps) {
   );
 }
 
+export function TransposeIcon({ size = 24, ...rest }: IconProps) {
+  return (
+    <svg {...base(size)} {...rest}>
+      <circle cx="6" cy="18" r="3" />
+      <path d="M9 18V5l4 1.5" />
+      <path d="M14 11h7" />
+      <path d="m18 8 3 3-3 3" />
+      <path d="M21 18h-7" />
+      <path d="m17 15-3 3 3 3" />
+    </svg>
+  );
+}
+
 export type FeatureIconName =
   | "ear"
   | "levels"
@@ -157,7 +170,8 @@ export type FeatureIconName =
   | "trophy"
   | "tuning"
   | "shield"
-  | "palette";
+  | "palette"
+  | "transpose";
 
 export function FeatureIcon({
   name,
@@ -174,6 +188,7 @@ export function FeatureIcon({
     tuning: TuningIcon,
     shield: ShieldIcon,
     palette: PaletteIcon,
+    transpose: TransposeIcon,
   };
   const Cmp = map[name];
   return <Cmp size={size} {...rest} />;

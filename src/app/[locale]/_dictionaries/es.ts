@@ -20,6 +20,12 @@ const es: Dictionary = {
     title: "Todo lo que necesitas. Nada más.",
     list: [
       {
+        icon: "transpose",
+        badge: "Nuevo en 1.7",
+        title: "Transposición para tu instrumento",
+        body: "¿Tocas clarinete, trompeta, saxo o trompa? Elige Si♭, La, Mi♭ o Fa y responde con la nota que lee tu instrumento. Ves la nota escrita en grande y el sonido real en pequeño debajo, y cambias con un toque cuando cambias de instrumento. Tus estadísticas siguen en sonido real. Premium.",
+      },
+      {
         icon: "levels",
         title: "Nueve niveles de dificultad",
         body: "Desde tres notas coloreadas para principiantes absolutos hasta progresiones de acordes y melodías para estudiantes serios.",
@@ -87,7 +93,7 @@ const es: Dictionary = {
   cta: {
     eyebrow: "Lista cuando tú lo estés",
     title: "Entrena el oído con el que los músicos sueñan durante años.",
-    body: "Empieza gratis — Supervivencia y el Reto Diario incluidos. Premium es un pago único, sin suscripción: desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas, guitarra y violín, e iconos exclusivos.",
+    body: "Empieza gratis — Supervivencia y el Reto Diario incluidos. Premium es un pago único, sin suscripción: desbloquea los niveles superiores, el entrenamiento de Notas Débiles, estadísticas avanzadas, la transposición (Si♭, La, Mi♭, Fa), guitarra y violín, e iconos exclusivos.",
     button: "Descargar en el App Store",
   },
   faq: {
@@ -111,8 +117,12 @@ const es: Dictionary = {
         a: "La mayoría ve su curva de precisión moverse en los primeros 7 días de práctica diaria. Por eso la pantalla de estadísticas muestra gráficos de 7, 30, 90 días y un año completo — el cambio es pequeño día a día y evidente semana a semana.",
       },
       {
+        q: "Toco clarinete, trompeta o saxo. ¿Puedo entrenar en la tonalidad de mi instrumento?",
+        a: "Sí. En Ajustes → Transposición eliges Si♭ (clarinete, trompeta, saxo tenor), La (clarinete), Mi♭ (saxo alto y barítono) o Fa (trompa). La app muestra entonces la nota que lee tu instrumento, con el sonido real debajo, y respondes con la nota escrita. El cambio rápido en cada sesión te ayuda a pasar del clarinete en La al de Si♭. Las estadísticas y las clasificaciones siguen en sonido real. La transposición forma parte de Premium.",
+      },
+      {
         q: "¿Es gratis?",
-        a: "Sí — el entrenamiento básico es gratis para siempre, igual que Supervivencia y el Reto Diario. Premium es un pago único, sin suscripción. Desbloquea los niveles de dificultad más altos (acordes, melodías), el entrenamiento de Notas Débiles, estadísticas avanzadas, guitarra y violín, e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
+        a: "Sí — el entrenamiento básico es gratis para siempre, igual que Supervivencia y el Reto Diario. Premium es un pago único, sin suscripción. Desbloquea los niveles de dificultad más altos (acordes, melodías), el entrenamiento de Notas Débiles, estadísticas avanzadas, la transposición (Si♭, La, Mi♭, Fa), guitarra y violín, e iconos exclusivos. Sin cuentas, sin rastreadores, sin anuncios.",
       },
     ],
   },

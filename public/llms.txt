@@ -6,9 +6,10 @@ Key facts:
 
 - Platform: iPhone, iOS 17 or later. App Store: https://apps.apple.com/app/absolutepitchtrainer/id6762354184
 - Languages: English, German, French, Spanish, Japanese, Simplified Chinese.
-- Price model: core training, Survival mode and the Daily Challenge are free. Premium is a one-time purchase (no subscription) that unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, guitar and violin sounds, and extra app icons.
+- Price model: core training, Survival mode and the Daily Challenge are free. Premium is a one-time purchase (no subscription) that unlocks the higher difficulty levels (chords, melodies), Weak Notes training, advanced statistics, transposition for B♭, A, E♭ and F instruments, guitar and violin sounds, and extra app icons.
 - Privacy: no accounts, no ads, no trackers, no telemetry. Practice history stays on the device and, optionally, in the user's own iCloud.
 - Game modes: Practice (no pressure), Quiz (timed, scored), Survival (one life, how many notes in a row), Weak Notes (drills the notes the user keeps missing).
+- Transposition (new in 1.7, Premium): players of transposing instruments (B♭ clarinet, trumpet and tenor sax; A clarinet; E♭ alto and baritone sax; F horn) see and answer with the written note, with the concert pitch shown small underneath. A quick switch per session; statistics and leaderboards stay in concert pitch.
 - Other features: Daily Challenge with a different theme each weekday, "On Fire" streaks, accuracy statistics over 7/30/90 days and one year with per-note mastery, Game Center leaderboards, shareable score images, a reference tuning fork, a recorded grand piano sound, four colour themes.
 - Approach: trains absolute pitch directly (naming single notes without a reference tone), unlike interval apps that train relative pitch. Intervals, chords and melodies come in at the higher levels. The app does not promise full childhood-style perfect pitch; it is about measurable improvement in note recognition through daily practice.
 

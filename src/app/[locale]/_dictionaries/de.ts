@@ -20,6 +20,12 @@ const de: Dictionary = {
     title: "Alles, was du brauchst. Nichts, was du nicht brauchst.",
     list: [
       {
+        icon: "transpose",
+        badge: "Neu in 1.7",
+        title: "Transposition für dein Instrument",
+        body: "Du spielst Klarinette, Trompete, Sax oder Horn? Stell B, A, Es oder F ein und antworte mit dem Ton, den dein Instrument liest. Groß siehst du den geschriebenen Ton, klein darunter den klingenden. Beim Instrumentwechsel stellst du mit einem Tipp um. Deine Statistik bleibt klingend. Premium.",
+      },
+      {
         icon: "levels",
         title: "Neun Schwierigkeitsstufen",
         body: "Von drei farbig markierten Tönen für Anfänger bis zu vollen Akkordfolgen und Melodien für Fortgeschrittene.",
@@ -87,7 +93,7 @@ const de: Dictionary = {
   cta: {
     eyebrow: "Bereit, wenn du es bist",
     title: "Trainiere das Gehör, von dem Musiker jahrelang träumen.",
-    body: "Kostenlos starten – Survival und die Tägliche Herausforderung inklusive. Premium ist ein Einmalkauf, kein Abo: Es schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik, Gitarre & Geige und exklusive App-Icons frei.",
+    body: "Kostenlos starten – Survival und die Tägliche Herausforderung inklusive. Premium ist ein Einmalkauf, kein Abo: Es schaltet höhere Schwierigkeitsstufen, das Schwache-Noten-Training, erweiterte Statistik, die Transposition für B-, A-, Es- und F-Instrumente, Gitarre & Geige und exklusive App-Icons frei.",
     button: "Im App Store laden",
   },
   faq: {
@@ -111,8 +117,12 @@ const de: Dictionary = {
         a: "Die meisten sehen ihre Genauigkeitskurve in den ersten 7 Tagen täglicher Übung steigen. Deshalb zeigt der Statistik-Bildschirm Verläufe über 7, 30, 90 Tage und ein ganzes Jahr – der Fortschritt ist von Tag zu Tag klein und von Woche zu Woche offensichtlich.",
       },
       {
+        q: "Ich spiele Klarinette, Trompete oder Sax. Kann ich in der Stimmung meines Instruments trainieren?",
+        a: "Ja. Unter Einstellungen → Transposition wählst du B (Klarinette, Trompete, Tenorsax), A (Klarinette), Es (Alt- und Baritonsax) oder F (Horn). Die App zeigt dann den Ton, den dein Instrument liest, darunter klein den klingenden Ton, und du antwortest mit dem geschriebenen Ton. Mit dem Schnellwechsel in jeder Runde wechselst du zum Beispiel zwischen A- und B-Klarinette. Statistik und Bestenlisten bleiben klingend. Die Transposition gehört zu Premium.",
+      },
+      {
         q: "Ist die App kostenlos?",
-        a: "Ja – das Kerntraining ist für immer kostenlos, Survival und die Tägliche Herausforderung ebenso. Premium ist ein Einmalkauf, kein Abo. Es schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik, Gitarre & Geige und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
+        a: "Ja – das Kerntraining ist für immer kostenlos, Survival und die Tägliche Herausforderung ebenso. Premium ist ein Einmalkauf, kein Abo. Es schaltet die höheren Schwierigkeitsstufen (Akkorde, Melodien), das Schwache-Noten-Training, erweiterte Statistik, die Transposition für B-, A-, Es- und F-Instrumente, Gitarre & Geige und exklusive App-Icons frei. Keine Accounts, keine Tracker, keine Werbung.",
       },
     ],
   },

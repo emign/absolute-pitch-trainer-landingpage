@@ -26,9 +26,12 @@ export type Dictionary = {
         | "trophy"
         | "tuning"
         | "shield"
-        | "palette";
+        | "palette"
+        | "transpose";
       title: string;
       body: string;
+      /** Short badge (e.g. "New in 1.7"); a card with a badge spans the full grid width. */
+      badge?: string;
     }>;
   };
   screens: {
